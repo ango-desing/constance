@@ -28,14 +28,14 @@ body
 nav{
     display: flex;
     justify-content: space-between;
-    padding: -100%;
     align-items: center;
     position: fixed;
     height: 100px;
     left: 0;
     order: 2;  
     top: 0;
-    z-index: 1;
+    z-index: 2;
+    box-sizing: border-box;
     width: 100%;
     background-color: transparent;
    
