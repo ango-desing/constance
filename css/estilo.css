@@ -24,20 +24,24 @@ body {
   height: 105px;
   background: rgba(255, 0, 0, 0.315);
   padding: 10px;
+  position: relative;
+  background-position: right bottom;
 }
 
 nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: -100%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: fixed;
   height: 100px;
-  left: 100px;
+  left: 0;
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
@@ -82,6 +86,9 @@ nav {
   opacity: 0;
   z-index: 2;
   -webkit-touch-callout: none;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 3;
+  grid-column: 4 / 7;
 }
 
 #menuToggle span {
