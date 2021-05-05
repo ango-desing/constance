@@ -24,7 +24,7 @@ body {
 #escritorio {
   height: 105px;
   background: rgba(255, 0, 0, 0.315);
-  position: absolute;
+  position: relative;
   background-position: right bottom;
 }
 
