@@ -20,10 +20,11 @@ body {
   font-family: "Avenir Next", "Avenir", sans-serif;
 }
 
+/*menu*/
 #escritorio {
   height: 105px;
   background: rgba(255, 0, 0, 0.315);
-  position: relative;
+  position: absolute;
   background-position: right bottom;
 }
 
@@ -42,6 +43,7 @@ nav {
   position: fixed;
   height: 100px;
   top: 0;
+  left: 0;
   z-index: 1;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -131,7 +133,7 @@ nav {
 }
 
 #menu {
-  position: fixed;
+  position: absolute;
   overflow: hidden;
   width: 350px;
   margin: -100px 0 0 -120px;
@@ -145,10 +147,10 @@ nav {
           transform-origin: 0% 0%;
   -webkit-transform: translate(-100%, 0);
           transform: translate(-100%, 0);
-  -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-  transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  -webkit-transition: -webkit-transform 1s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: -webkit-transform 1s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: transform 1s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: transform 1s cubic-bezier(0.77, 0.2, 0.05, 1), -webkit-transform 1s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
 #menu li {
@@ -197,6 +199,17 @@ i {
   cursor: pointer;
 }
 
+/*inicio*/
+.presentacion p {
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+}
+
+.imagen-fondo img {
+  height: 570px;
+}
+
+/*medias*/
 @media (max-width: 500px) {
   nav {
     padding-right: 2.5rem;
@@ -208,7 +221,6 @@ i {
     top: 2px;
   }
   #menuToggle span {
-    display: block;
     width: 24px;
     height: 2px;
     margin-bottom: 3.4px;
@@ -229,7 +241,6 @@ i {
     top: 2px;
   }
   #menuToggle span {
-    display: block;
     width: 20px;
     height: 2px;
     margin-bottom: 2.5px;
