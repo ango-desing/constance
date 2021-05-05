@@ -182,23 +182,19 @@ i{
   #menuToggle span
   {
   display: block;
-  width: 22px;
+  width: 24px;
   height: 2px;
-  margin-bottom: 3px;
+  margin-bottom: 3.4px;
   }
-  nav{
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
-    font-size: 12px;
-  }
+
   .logo {
     margin-top: 5px;
   }
   .logo img{
-    height: 56px;
+    height: 60px;
   }
   i{
-    font-size: 17px;
+    font-size: 20px;
   }
 }
 @media (max-width: 350px){
