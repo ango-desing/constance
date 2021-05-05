@@ -77,7 +77,6 @@ nav{
   -webkit-touch-callout: none;
 
 }
-
 #menuToggle span
 {
   display: block;
@@ -172,17 +171,32 @@ i{
   nav{
     padding-right: 2.5rem;
     padding-left: 2.5rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    height: 100px;
-    top: 0;
-    z-index: 1;
-    box-sizing: border-box;
-    width: 100%;
-    background-color: transparent;
-    
-   
    }
+}
+
+
+@media (max-width: 350px){
+  #menuToggle
+  {
+    top: 2px;
+  }
+  #menuToggle span
+{
+  display: block;
+  width: 20px;
+  height: 2px;
+  margin-bottom: 2.5px;
+}
+  nav{
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    font-size: 12px;
+   }
+   .logo img{
+    height: 150px;
+}
+   i{
+    font-size: 15px;
+  }
+  
 }
