@@ -26,18 +26,19 @@ body
     background-position: right bottom;
 }
 nav{
+    padding-right: 6.5rem;
+    padding-left: 6.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
     height: 100px;
-    left: 0;
-    order: 2;  
     top: 0;
-    z-index: 2;
+    z-index: 1;
     box-sizing: border-box;
     width: 100%;
     background-color: transparent;
+    
    
    }
 #menuToggle
@@ -45,7 +46,6 @@ nav{
   display: grid;
   position:relative;
   top: 4.5px;
-  left: 100px; 
   z-index: 1; 
   -webkit-user-select: none;
   user-select: none;
@@ -75,7 +75,7 @@ nav{
   opacity: 0;
   z-index: 2;
   -webkit-touch-callout: none;
-  grid-column: 4 / 7;
+
 }
 
 #menuToggle span
@@ -123,7 +123,7 @@ nav{
   position: fixed;
   overflow: hidden;
   width: 350px;
-  margin: -100px 0 0 -100px;
+  margin: -100px 0 0 -120px;
   padding: 100px;
   padding-top: 225px;
   height: 880px;
@@ -161,4 +161,9 @@ nav{
 
 .logo img{
     height: 210px;
+}
+i{
+  color: $blanco;
+  font-size: 23px;
+  cursor: pointer;
 }

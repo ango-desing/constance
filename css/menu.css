@@ -29,6 +29,8 @@ body {
 }
 
 nav {
+  padding-right: 6.5rem;
+  padding-left: 6.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,12 +42,8 @@ nav {
           align-items: center;
   position: fixed;
   height: 100px;
-  left: 0;
-  -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
   top: 0;
-  z-index: 2;
+  z-index: 1;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 100%;
@@ -57,7 +55,6 @@ nav {
   display: grid;
   position: relative;
   top: 4.5px;
-  left: 100px;
   z-index: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -87,9 +84,6 @@ nav {
   opacity: 0;
   z-index: 2;
   -webkit-touch-callout: none;
-  -ms-grid-column: 4;
-  -ms-grid-column-span: 3;
-  grid-column: 4 / 7;
 }
 
 #menuToggle span {
@@ -141,7 +135,7 @@ nav {
   position: fixed;
   overflow: hidden;
   width: 350px;
-  margin: -100px 0 0 -100px;
+  margin: -100px 0 0 -120px;
   padding: 100px;
   padding-top: 225px;
   height: 880px;
@@ -192,5 +186,11 @@ nav {
 
 .logo img {
   height: 210px;
+}
+
+i {
+  color: #ffff;
+  font-size: 23px;
+  cursor: pointer;
 }
 /*# sourceMappingURL=menu.css.map */
