@@ -183,8 +183,12 @@ nav {
   border-radius: 20px;
 }
 
+.logo {
+  margin-top: 14px;
+}
+
 .logo img {
-  height: 210px;
+  height: 70px;
 }
 
 i {
@@ -197,6 +201,9 @@ i {
   nav {
     padding-right: 2.5rem;
     padding-left: 2.5rem;
+  }
+  .logo img {
+    height: 50px;
   }
 }
 
@@ -216,7 +223,7 @@ i {
     font-size: 12px;
   }
   .logo img {
-    height: 150px;
+    height: 50px;
   }
   i {
     font-size: 15px;
