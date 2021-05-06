@@ -22,6 +22,7 @@ body
     position: relative;
     background-position: right bottom;
 }
+
 nav{
     padding-right: 6.5rem;
     padding-left: 6.5rem;
@@ -75,7 +76,6 @@ nav{
 }
 #menuToggle span
 {
-  
   width: 29px;
   height: 2px;
   margin-bottom: 5px;
@@ -121,12 +121,14 @@ nav{
   margin: -100px 0 0 -120px;
   padding: 100px;
   padding-top: 225px;
-  height: calc(100% );
   background: $green;
   list-style-type: none;
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
   transition: transform 1s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+#menu ul{
+  height: 100%;
 }
 #menu li
 {
@@ -144,9 +146,6 @@ nav{
   transform: none;
 }
 .terms{
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin-top: 200px;
 }
   .sub-terms-item {
