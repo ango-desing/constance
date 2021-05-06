@@ -29,6 +29,7 @@ body {
 nav {
   padding-right: 6.5rem;
   padding-left: 6.5rem;
+  position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -42,7 +43,6 @@ nav {
   height: 100px;
   top: 0;
   left: 0;
-  z-index: 1;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 100%;
@@ -54,7 +54,6 @@ nav {
   display: grid;
   position: relative;
   top: 6.5px;
-  z-index: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
    -ms-user-select: none;
@@ -73,7 +72,6 @@ nav {
 }
 
 #menuToggle input {
-  display: block;
   width: 40px;
   height: 32px;
   position: absolute;
@@ -86,7 +84,6 @@ nav {
 }
 
 #menuToggle span {
-  display: block;
   width: 29px;
   height: 2px;
   margin-bottom: 5px;
@@ -131,16 +128,15 @@ nav {
 }
 
 #menu {
-  position: absolute;
+  position: fixed;
   overflow: hidden;
   width: 350px;
   margin: -100px 0 0 -120px;
   padding: 100px;
   padding-top: 225px;
-  height: 880px;
+  height: calc(100%);
   background: #686230;
   list-style-type: none;
-  -webkit-font-smoothing: antialiased;
   -webkit-transform-origin: 0% 0%;
           transform-origin: 0% 0%;
   -webkit-transform: translate(-100%, 0);
@@ -152,8 +148,14 @@ nav {
 }
 
 #menu li {
+  display: block;
   padding: 12px 0;
   font-size: 22px;
+}
+
+#menu li a {
+  display: block;
+  color: #ffff;
 }
 
 #menuToggle input:checked ~ ul {
@@ -198,15 +200,6 @@ i {
 }
 
 /*inicio*/
-.presentacion p {
-  padding-right: 2.5rem;
-  padding-left: 2.5rem;
-}
-
-.imagen-fondo img {
-  height: 570px;
-}
-
 /*medias*/
 @media (max-width: 500px) {
   nav {
