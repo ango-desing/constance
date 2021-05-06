@@ -222,7 +222,7 @@ i {
     overflow: hidden;
     width: 350px;
     margin: -100px 0 0 -120px;
-    padding: 100px;
+    padding: 165px;
     padding-top: 225px;
     height: 880px;
   }
@@ -237,6 +237,20 @@ i {
   #menu li {
     padding: 12px 0;
     font-size: 18px;
+  }
+  .terms {
+    margin-top: 200px;
+    margin-left: 125px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    right: 20px;
+  }
+  .sub-terms-item {
+    padding: 5px 5px;
   }
   .logo {
     margin-top: 5px;

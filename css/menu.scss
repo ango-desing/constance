@@ -191,7 +191,7 @@ i{
   overflow: hidden;
   width: 350px;
   margin: -100px 0 0 -120px;
-  padding: 100px;
+  padding: 165px;
   padding-top: 225px;
   height: 880px;
 }
@@ -210,6 +210,17 @@ i{
     padding: 12px 0;
     font-size: 18px;
   }
+  .terms{
+    margin-top: 200px;
+    margin-left: 125px;
+    align-items: center;
+    justify-content: flex-end;
+    right: 20px;
+  }
+  
+  .sub-terms-item {
+    padding: 5px 5px;
+   }
   .logo {
     margin-top: 5px;
   }
