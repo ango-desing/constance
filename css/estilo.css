@@ -15,15 +15,13 @@
 body {
   margin: 0;
   padding: 0;
-  background: #A2A183;
-  color: #686230;
   font-family: "Avenir Next", "Avenir", sans-serif;
 }
 
 /*menu*/
 #escritorio {
   height: 105px;
-  background: rgba(255, 0, 0, 0.315);
+  background: rgba(255, 0, 0, 0.753);
   position: relative;
   background-position: right bottom;
 }
@@ -173,7 +171,7 @@ nav {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 345px;
+  margin-top: 200px;
 }
 
 .sub-terms-item {
@@ -240,7 +238,7 @@ i {
   }
   .terms {
     margin-top: 200px;
-    margin-left: 125px;
+    margin-left: 12px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;

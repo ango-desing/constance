@@ -13,14 +13,12 @@ body
 {
   margin: 0;
   padding: 0;
-  background: $lemon;
-  color: $green;
   font-family: "Avenir Next", "Avenir", sans-serif;
 }
 /*menu*/
 #escritorio{
     height: 105px;
-    background: rgba(255, 0, 0, 0.315);
+    background: rgba(255, 0, 0, 0.753);
     position: relative;
     background-position: right bottom;
 }
@@ -146,7 +144,7 @@ nav{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 345px;
+  margin-top: 200px;
 }
   .sub-terms-item {
    text-decoration: none;
@@ -178,7 +176,9 @@ i{
   height: 570px;
 }
 /*medias*/
+@media (max-width: 1025px){
 
+}
 @media (max-width: 500px){
   nav{
     padding-right: 2.5rem;
@@ -212,7 +212,7 @@ i{
   }
   .terms{
     margin-top: 200px;
-    margin-left: 125px;
+    margin-left: 12px;
     align-items: center;
     justify-content: flex-end;
     right: 20px;
