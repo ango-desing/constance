@@ -55,7 +55,7 @@ nav {
   display: -ms-grid;
   display: grid;
   position: relative;
-  top: 4.5px;
+  top: 6.5px;
   z-index: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -164,7 +164,6 @@ nav {
 }
 
 .terms {
-  top: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -174,6 +173,7 @@ nav {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 345px;
 }
 
 .sub-terms-item {
@@ -217,6 +217,15 @@ i {
     -ms-flex-line-pack: center;
         align-content: center;
   }
+  #menu {
+    position: absolute;
+    overflow: hidden;
+    width: 350px;
+    margin: -100px 0 0 -120px;
+    padding: 100px;
+    padding-top: 225px;
+    height: 880px;
+  }
   #menuToggle {
     top: 2px;
   }
@@ -224,6 +233,10 @@ i {
     width: 24px;
     height: 2px;
     margin-bottom: 3.4px;
+  }
+  #menu li {
+    padding: 12px 0;
+    font-size: 18px;
   }
   .logo {
     margin-top: 5px;
@@ -241,9 +254,9 @@ i {
     top: 2px;
   }
   #menuToggle span {
-    width: 20px;
-    height: 2px;
-    margin-bottom: 2.5px;
+    width: 18px;
+    height: 1.8px;
+    margin-bottom: 2.4px;
   }
   nav {
     padding-right: 1.5rem;
