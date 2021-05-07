@@ -21,6 +21,7 @@ body
     position: relative;
     background-position: right bottom;
     display: block;
+    background: rgba(255, 0, 0, 0.753);
 }
 
 nav{
@@ -35,7 +36,7 @@ nav{
     left: 0;
     box-sizing: border-box;
     width: 100%;
-    background: rgba(255, 0, 0, 0.753);
+   
    
    }
 #menuToggle
@@ -45,6 +46,7 @@ nav{
   top: 6.5px;
   -webkit-user-select: none;
   user-select: none;
+  z-index: 1;
 
 }
 #menuToggle a
@@ -111,22 +113,34 @@ nav{
 {
   transform: rotate(-38deg) translate(0, -1px);
 }
-#menu
-{
+.container{
   position: fixed;
-  overflow: hidden;
   width: 350px;
+  height: 110vh;
+  background: $green;
   margin: -100px 0 0 -120px;
   padding: 100px;
   padding-top: 225px;
-  background: $green;
+  display: flex;
+  overflow: auto;
   list-style-type: none;
+  -webkit-font-smoothing: antialiased;
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
   transition: transform 1s cubic-bezier(0.77,0.2,0.05,1.0);
 }
-#menu ul{
-  height: 100%;
+#menu
+{
+
+  
+
+
+  justify-content: space-between;
+  padding-bottom: 3rem;
+  flex-direction: column;
+  overflow: auto;
+  list-style-type: none;
+ 
 }
 #menu li
 {
@@ -141,10 +155,13 @@ nav{
 }
 #menuToggle input:checked ~ ul
 {
-  transform: none;
+  transform: scale(1.0, 1.0);
+  opacity: 1;
 }
+
 .terms{
-  margin-top: 200px;
+  justify-content: space-between;
+  height: 100%;
 }
   .sub-terms-item {
    text-decoration: none;
