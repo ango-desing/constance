@@ -21,9 +21,9 @@ body {
 /*menu*/
 #escritorio {
   height: 105px;
-  background: rgba(255, 0, 0, 0.753);
   position: relative;
   background-position: right bottom;
+  display: block;
 }
 
 nav {
@@ -39,14 +39,13 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: fixed;
   height: 100px;
   top: 0;
   left: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 100%;
-  background-color: transparent;
+  background: rgba(255, 0, 0, 0.753);
 }
 
 #menuToggle {
@@ -282,11 +281,5 @@ i {
 *, ::before, ::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  background: #A2A183;
 }
 /*# sourceMappingURL=estilo.css.map */
