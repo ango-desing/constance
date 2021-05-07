@@ -113,34 +113,26 @@ nav{
 {
   transform: rotate(-38deg) translate(0, -1px);
 }
-.container{
+
+#menu
+{
   position: fixed;
   width: 350px;
-  height: 110vh;
-  background: $green;
   margin: -100px 0 0 -120px;
   padding: 100px;
   padding-top: 225px;
+  height: 110vh;
   display: flex;
+  justify-content: space-between;
+  padding-bottom: 3rem;
+  flex-direction: column;
+  background: $green;
   overflow: auto;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
   transition: transform 1s cubic-bezier(0.77,0.2,0.05,1.0);
-}
-#menu
-{
-
-  
-
-
-  justify-content: space-between;
-  padding-bottom: 3rem;
-  flex-direction: column;
-  overflow: auto;
-  list-style-type: none;
- 
 }
 #menu li
 {
@@ -155,10 +147,8 @@ nav{
 }
 #menuToggle input:checked ~ ul
 {
-  transform: scale(1.0, 1.0);
-  opacity: 1;
+  transform: none;
 }
-
 .terms{
   justify-content: space-between;
   height: 100%;
