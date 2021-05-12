@@ -24,6 +24,7 @@ body {
   position: relative;
   background-position: right bottom;
   display: block;
+  z-index: 1;
 }
 
 nav {

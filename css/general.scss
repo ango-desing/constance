@@ -35,15 +35,14 @@ margin-top: 25px;
 
 /* Mouse Styling */
 .mouse {
-  display: block;
+
   width: 28px;
   height: 48px;
   border-radius: 11px 11px 15px 15px;
   border: 1.5px solid #fff;
-  position: absolute;
   left: 50%;
   margin-left: -13px;
-  z-index: 9999;
+
 }
 
 .mouse span {
