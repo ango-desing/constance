@@ -41,13 +41,5 @@ body {
 
 .background .img1 {
   width: 100%;
-  position: absolute;
-  z-index: -2;
-}
-
-.background .img2 {
-  width: 100%;
-  z-index: -1;
-  margin-top: 370px;
 }
 /*# sourceMappingURL=general.css.map */
