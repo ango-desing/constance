@@ -307,13 +307,14 @@ body {
 }
 
 .main {
-  padding-right: 2.5rem;
-  padding-left: 2.5rem;
+  width: 100%;
 }
 
 .background {
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
   width: 100%;
-  height: 300px;
+  height: 350px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -331,11 +332,13 @@ body {
 
 .background .img1 {
   width: 100%;
+  display: block;
 }
 
 /* Mouse */
 .box-mouse {
   margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .mouse {
@@ -390,5 +393,26 @@ body {
     -webkit-transform: translateY(20px);
     transform: translateY(20px);
   }
+}
+
+.banner {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #ffff;
+  background: #686230;
+  padding: none;
 }
 /*# sourceMappingURL=estilo.css.map */
