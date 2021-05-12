@@ -18,7 +18,7 @@ body{
 }
 .background{
   width: 100%;
-  height: 230px;
+  height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,20 +29,19 @@ body{
   
 }
   
+/* Mouse */
 .box-mouse{
 margin-top: 25px;
 }
 
-/* Mouse Styling */
 .mouse {
-
+  display: block;
   width: 28px;
   height: 48px;
   border-radius: 11px 11px 15px 15px;
   border: 1.5px solid #fff;
   left: 50%;
   margin-left: -13px;
-
 }
 
 .mouse span {
