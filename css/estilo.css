@@ -302,6 +302,10 @@ i {
           box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #A2A183;
 }
