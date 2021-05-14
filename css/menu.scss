@@ -16,7 +16,7 @@ body
   font-family: "Avenir Next", "Avenir", sans-serif;
 }
 /*menu*/
-#escritorio{
+header{
     height: 105px;
     position: relative;
     background-position: right bottom;
@@ -24,6 +24,7 @@ body
     z-index: 1;
 
 }
+
 
 nav{
     padding-right: 6.5rem;
@@ -37,9 +38,11 @@ nav{
     left: 0;
     box-sizing: border-box;
     width: 100%;
-    background: transparent;
+    background: $lemon;
    
    }
+
+
 #menuToggle
 {
   display: grid;
@@ -176,6 +179,7 @@ i{
   font-size: 23px;
   cursor: pointer;
 }
+
 
 /*inicio*/
 
