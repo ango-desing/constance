@@ -85,12 +85,12 @@ nav {
 }
 
 #menuToggle span {
-  width: 29px;
+  width: 28px;
   height: 2px;
   margin-bottom: 5px;
   position: relative;
   background: #ffff;
-  border-radius: 3px;
+  border-radius: 2px;
   z-index: 1;
   -webkit-transform-origin: 4px 0px;
           transform-origin: 4px 0px;
@@ -206,7 +206,8 @@ nav {
 }
 
 .logo img {
-  height: 70px;
+  height: 24px;
+  margin-bottom: 9px;
 }
 
 i {
@@ -215,7 +216,6 @@ i {
   cursor: pointer;
 }
 
-/*inicio*/
 /*medias*/
 @media (max-width: 500px) {
   nav {
@@ -237,9 +237,9 @@ i {
     top: 2px;
   }
   #menuToggle span {
-    width: 24px;
+    width: 22px;
     height: 2px;
-    margin-bottom: 3.4px;
+    margin-bottom: 3px;
   }
   #menu li {
     padding: 9px 0;
@@ -259,7 +259,8 @@ i {
     margin-top: 5px;
   }
   .logo img {
-    height: 60px;
+    height: 20px;
+    margin-top: 8px;
   }
   i {
     font-size: 20px;
@@ -271,9 +272,9 @@ i {
     top: 2px;
   }
   #menuToggle span {
-    width: 18px;
-    height: 1.8px;
-    margin-bottom: 2.4px;
+    width: 20px;
+    height: 1.2px;
+    margin-bottom: 3.3px;
   }
   nav {
     padding-right: 1.5rem;
@@ -281,7 +282,8 @@ i {
     font-size: 12px;
   }
   .logo img {
-    height: 50px;
+    height: 18px;
+    margin-top: 7px;
   }
   i {
     font-size: 15px;
