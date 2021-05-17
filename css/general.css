@@ -159,8 +159,19 @@ body {
   background: #ffff;
 }
 
+.bio-product .item-product .Trazado_370 {
+  overflow: visible;
+  position: absolute;
+  width: 145.329px;
+  height: 27.804px;
+  left: 518.597px;
+  top: 1186.97px;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
 .bio-product .item-product img {
-  width: 70%;
+  width: 50%;
 }
 
 .bio-product .item-product-2 {

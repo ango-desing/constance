@@ -109,8 +109,17 @@ margin-bottom: 25px;
     justify-content: center;
     flex-direction: column;
     background: $blanco;
+    .Trazado_370 {
+      overflow: visible;
+      position: absolute;
+      width: 145.329px;
+      height: 27.804px;
+      left: 518.597px;
+      top: 1186.97px;
+      transform: matrix(1,0,0,1,0,0);
+  }
   img{
-    width: 70%;
+    width: 50%;
   }
 }
   .item-product-2{
