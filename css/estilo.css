@@ -451,9 +451,18 @@ body {
   background: #ffff;
 }
 
+.bio-product .item-product #Trazado_370 {
+  fill: transparent;
+  stroke: #707070;
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
 .bio-product .item-product .Trazado_370 {
   overflow: visible;
-  position: absolute;
   width: 145.329px;
   height: 27.804px;
   left: 518.597px;
@@ -464,6 +473,19 @@ body {
 
 .bio-product .item-product img {
   width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .bio-product .item-product-2 {
