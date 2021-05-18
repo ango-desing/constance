@@ -105,7 +105,8 @@ margin-bottom: 25px;
     width: 100%;
     height: 280px;
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
     background: $blanco;
@@ -120,19 +121,110 @@ margin-bottom: 25px;
     }
     .Trazado_370 {
       overflow: visible;
-  
       width: 145.329px;
       height: 27.804px;
       left: 518.597px;
       top: 1186.97px;
       transform: matrix(1,0,0,1,0,0);
     }
+    #Trazado_369 {
+      fill: transparent;
+      stroke: rgba(112,112,112,1);
+      stroke-width: 1px;
+      stroke-linejoin: miter;
+      stroke-linecap: butt;
+      stroke-miterlimit: 4;
+      shape-rendering: auto;
+    }
+    .Trazado_369 {
+      overflow: visible;
+      width: 115.95px;
+      height: 34.505px;
+      left: 628.02px;
+      top: 1438.866px;
+      transform: matrix(1,0,0,1,0,0);
+    }
+    #Trazado_371 {
+      fill: transparent;
+      stroke: rgba(112,112,112,1);
+      stroke-width: 1px;
+      stroke-linejoin: miter;
+      stroke-linecap: butt;
+      stroke-miterlimit: 4;
+      shape-rendering: auto;
+    }
+    .Trazado_371 {
+      overflow: visible;
+      width: 126.797px;
+      height: 26.424px;
+      left: 204.116px;
+      top: 1296.724px;
+      transform: matrix(1,0,0,1,0,0);
+    }
+    #Transparent__Glossy{
+      left: 156px;
+      top: 1247px;
+      overflow: visible;
+      width: 97px;
+      white-space: nowrap;
+      line-height: 22px;
+      margin-top: -2.5px;
+      text-align: left;
+      font-family: Metro Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 17px;
+      color: rgba(0,0,0,1);
+    }
+    #Compact{
+      left: 676px;
+      top: 1169px;
+      position: absolute;
+      overflow: visible;
+      width: 73px;
+      white-space: nowrap;
+      text-align: left;
+      font-family: Metro Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      color: rgba(0,0,0,1);
+    }
+    #Color{
+      left: 723px;
+      top: 1491px;
+      overflow: visible;
+      width: 44px;
+      white-space: nowrap;
+      text-align: left;
+      font-family: Metro Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      color: rgba(0,0,0,1);
+    }
+    #Rectngulo_104 {
+      fill: rgba(225,190,147,1);
+    }
+    .Rectngulo_104 {
+      overflow: visible;
+      width: 28px;
+      height: 18px;
+      left: 720px;
+      top: 1517px;
+    }
+    #Rectngulo_105 {
+      fill: rgba(82,134,62,1);
+    }
+    .Rectngulo_105 {
+      overflow: visible;
+      width: 26px;
+      height: 18px;
+      left: 754px;
+      top: 1517px;
+    }
   img{
     width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
   }
 }
   .item-product-2{

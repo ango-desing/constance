@@ -438,16 +438,17 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+      flex-direction: column;
   background: #ffff;
 }
 
@@ -471,21 +472,117 @@ body {
           transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
+.bio-product .item-product #Trazado_369 {
+  fill: transparent;
+  stroke: #707070;
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.bio-product .item-product .Trazado_369 {
+  overflow: visible;
+  width: 115.95px;
+  height: 34.505px;
+  left: 628.02px;
+  top: 1438.866px;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.bio-product .item-product #Trazado_371 {
+  fill: transparent;
+  stroke: #707070;
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.bio-product .item-product .Trazado_371 {
+  overflow: visible;
+  width: 126.797px;
+  height: 26.424px;
+  left: 204.116px;
+  top: 1296.724px;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.bio-product .item-product #Transparent__Glossy {
+  left: 156px;
+  top: 1247px;
+  overflow: visible;
+  width: 97px;
+  white-space: nowrap;
+  line-height: 22px;
+  margin-top: -2.5px;
+  text-align: left;
+  font-family: Metro Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  color: black;
+}
+
+.bio-product .item-product #Compact {
+  left: 676px;
+  top: 1169px;
+  position: absolute;
+  overflow: visible;
+  width: 73px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Metro Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: black;
+}
+
+.bio-product .item-product #Color {
+  left: 723px;
+  top: 1491px;
+  overflow: visible;
+  width: 44px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Metro Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: black;
+}
+
+.bio-product .item-product #Rectngulo_104 {
+  fill: #e1be93;
+}
+
+.bio-product .item-product .Rectngulo_104 {
+  overflow: visible;
+  width: 28px;
+  height: 18px;
+  left: 720px;
+  top: 1517px;
+}
+
+.bio-product .item-product #Rectngulo_105 {
+  fill: #52863e;
+}
+
+.bio-product .item-product .Rectngulo_105 {
+  overflow: visible;
+  width: 26px;
+  height: 18px;
+  left: 754px;
+  top: 1517px;
+}
+
 .bio-product .item-product img {
   width: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 
 .bio-product .item-product-2 {
