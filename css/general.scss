@@ -191,23 +191,20 @@ margin-bottom: 25px;
 }
 .product_1{
   position: absolute;
-  top: 30%;
+  top: 35%;
   left: 40px;
   font-size: 18px;
   color: $blanco;
- 
 }
 .product_2{
   position: absolute;
-  top: 45%;
+  top: 48%;
   left: 40px;
   right: 40px;
   font-size: 14px;
   color: $blanco;
- 
 }
 }
-
 
 button {
   position: relative;
@@ -219,8 +216,10 @@ button {
   text-decoration: none;
   background: transparent;
   padding: 0;
+  top: 10px;
   font-size: inherit;
   font-family: inherit;
+  text-align: right;
   &.learn-more {
     width: 12rem;
     height: auto;
@@ -228,6 +227,7 @@ button {
       @include transition(all, 0.45s, cubic-bezier(0.65, 0, 0.076, 1));
       position: relative;
       display: block;
+ 
       margin: 0;
       width: 3rem;
       height: 3rem;

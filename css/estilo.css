@@ -524,7 +524,7 @@ body {
 
 #Grupo_4 .product_1 {
   position: absolute;
-  top: 30%;
+  top: 35%;
   left: 40px;
   font-size: 18px;
   color: #ffff;
@@ -532,7 +532,7 @@ body {
 
 #Grupo_4 .product_2 {
   position: absolute;
-  top: 45%;
+  top: 48%;
   left: 40px;
   right: 40px;
   font-size: 14px;
@@ -549,8 +549,10 @@ button {
   text-decoration: none;
   background: transparent;
   padding: 0;
+  top: 10px;
   font-size: inherit;
   font-family: inherit;
+  text-align: right;
 }
 
 button.learn-more {
