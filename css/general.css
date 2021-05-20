@@ -136,6 +136,10 @@ body {
 }
 
 /* div box */
+#box {
+  width: 100%;
+}
+
 .rectangulo {
   width: 100%;
   height: 310px;
@@ -210,28 +214,27 @@ body {
   width: 100%;
 }
 
-#Grupo_4 {
+.Grupo_4 {
   position: relative;
-  display: inline-block;
-  text-align: left;
+  height: 270px;
 }
 
-#Grupo_4 #asdsa {
+.Grupo_4 #asdsa {
   width: 100%;
-  height: 300px;
+  height: 270px;
   -o-object-fit: cover;
      object-fit: cover;
   display: none;
 }
 
-#Grupo_4 .asf {
+.Grupo_4 .asf {
   width: 100%;
-  height: 360px;
+  height: 270px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-#Grupo_4 .product_1 {
+.Grupo_4 .product_1 {
   position: absolute;
   top: 35%;
   left: 40px;
@@ -239,7 +242,7 @@ body {
   color: #ffff;
 }
 
-#Grupo_4 .product_2 {
+.Grupo_4 .product_2 {
   position: absolute;
   top: 48%;
   left: 40px;
@@ -248,7 +251,7 @@ body {
   color: #ffff;
 }
 
-button {
+.Grupo_4 button {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -258,18 +261,18 @@ button {
   text-decoration: none;
   background: transparent;
   padding: 0;
-  top: 10px;
+  top: 16px;
   font-size: inherit;
   font-family: inherit;
   text-align: right;
 }
 
-button.learn-more {
+.Grupo_4 button.learn-more {
   width: 12rem;
   height: auto;
 }
 
-button.learn-more .circle {
+.Grupo_4 button.learn-more .circle {
   -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: relative;
@@ -281,7 +284,7 @@ button.learn-more .circle {
   border-radius: 1.625rem;
 }
 
-button.learn-more .circle .icon {
+.Grupo_4 button.learn-more .circle .icon {
   -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: absolute;
@@ -291,7 +294,7 @@ button.learn-more .circle .icon {
   background: #ffff;
 }
 
-button.learn-more .circle .icon.arrow {
+.Grupo_4 button.learn-more .circle .icon.arrow {
   -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   left: 0.625rem;
@@ -300,7 +303,7 @@ button.learn-more .circle .icon.arrow {
   background: none;
 }
 
-button.learn-more .circle .icon.arrow::before {
+.Grupo_4 button.learn-more .circle .icon.arrow::before {
   position: absolute;
   content: "";
   top: -0.25rem;
@@ -313,7 +316,7 @@ button.learn-more .circle .icon.arrow::before {
           transform: rotate(45deg);
 }
 
-button.learn-more .button-text {
+.Grupo_4 button.learn-more .button-text {
   -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: absolute;
@@ -330,18 +333,24 @@ button.learn-more .button-text {
   text-transform: uppercase;
 }
 
-button:hover .circle {
+.Grupo_4 button:hover .circle {
   width: 100%;
 }
 
-button:hover .circle .icon.arrow {
+.Grupo_4 button:hover .circle .icon.arrow {
   background: #ffff;
   -webkit-transform: translate(1rem, 0);
           transform: translate(1rem, 0);
 }
 
-button:hover .button-text {
+.Grupo_4 button:hover .button-text {
   color: #ffff;
+}
+
+.bakeware {
+  width: 100%;
+  height: 360px;
+  background: #ffff;
 }
 
 /* medias */

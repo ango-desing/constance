@@ -6,7 +6,7 @@
   left: 0;
   right: 0;
   width: 100%;
-  height: 180px;
+  height: 150px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -32,14 +32,14 @@
 }
 
 #Grupo_6 span {
-  margin-top: 10px;
+  margin-top: 5px;
   white-space: nowrap;
   line-height: 15px;
   text-align: center;
   font-family: Metro Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 14px;
   color: #ffff;
 }
 
@@ -57,8 +57,8 @@
 }
 
 .footer-constance img {
-  height: 18px;
-  margin-top: 8px;
+  height: 15px;
+  margin-top: 5px;
 }
 
 #Grupo_7 {
@@ -75,9 +75,9 @@
 }
 
 #Grupo_7 i {
-  margin-top: 20px;
+  margin-top: 10px;
   text-align: center;
-  font-size: 20px;
+  font-size: 16px;
   margin-right: 5px;
 }
 
@@ -87,14 +87,14 @@
 
 #copyright_constance_2021__term {
   width: 100%;
-  margin-top: 7px;
+  margin-top: 5px;
   white-space: nowrap;
   line-height: 15px;
   text-align: center;
   font-family: Metro Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 14px;
   color: #ffff;
   display: -webkit-box;
   display: -ms-flexbox;

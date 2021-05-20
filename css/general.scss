@@ -1,12 +1,6 @@
 @import 'variables';
 
-@mixin transition(
-  $property: all,
-  $duration: 0.45s,
-  $ease: cubic-bezier(0.65, 0, 0.076, 1)
-) {
-  transition: $property $duration $ease;
-}
+
 *{
     margin: 0;
     padding: 0;
@@ -105,7 +99,9 @@ margin-bottom: 25px;
   }
 }
 /* div box */
-
+#box{
+width: 100%;
+}
 .rectangulo{
     width: 100%;
     height: 310px;
@@ -174,19 +170,18 @@ margin-bottom: 25px;
   }
 }
 
-#Grupo_4{
+.Grupo_4{
   position: relative;
-  display: inline-block;
-  text-align: left;
+  height: 270px;
 #asdsa{
   width: 100%;
-  height: 300px;
+  height: 270px;
   object-fit: cover;
   display: none;
 }
 .asf{
   width: 100%;
-  height: 360px;
+  height: 270px;
   object-fit: cover;
 }
 .product_1{
@@ -204,8 +199,13 @@ margin-bottom: 25px;
   font-size: 14px;
   color: $blanco;
 }
+@mixin transition(
+  $property: all,
+  $duration: 0.45s,
+  $ease: cubic-bezier(0.65, 0, 0.076, 1)
+) {
+  transition: $property $duration $ease;
 }
-
 button {
   position: relative;
   display: inline-block;
@@ -216,7 +216,7 @@ button {
   text-decoration: none;
   background: transparent;
   padding: 0;
-  top: 10px;
+  top: 16px;
   font-size: inherit;
   font-family: inherit;
   text-align: right;
@@ -227,7 +227,6 @@ button {
       @include transition(all, 0.45s, cubic-bezier(0.65, 0, 0.076, 1));
       position: relative;
       display: block;
- 
       margin: 0;
       width: 3rem;
       height: 3rem;
@@ -291,9 +290,12 @@ button {
     }
   }
 }
-
-
-
+}
+.bakeware{
+  width: 100%;
+  height: 360px;
+  background: $blanco;
+}
 
 /* medias */
 @media (min-width: 500px){
