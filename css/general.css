@@ -368,8 +368,8 @@ body {
 .bakeware .ware1 img {
   width: 40%;
   height: 280px;
-  border-top-left-radius: 10rem;
-  border-top-right-radius: 10rem;
+  border-top-left-radius: 11rem;
+  border-top-right-radius: 11rem;
   -o-object-fit: cover;
      object-fit: cover;
 }
