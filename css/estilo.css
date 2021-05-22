@@ -932,7 +932,7 @@ body {
 
 .galery-2 {
   position: relative;
-  background: #aad5f6;
+  background: #a13636;
 }
 
 .slide-1 {
@@ -945,6 +945,10 @@ body {
 
 .slide-3 {
   background: url("../img/about-image1.jpeg");
+}
+
+.slide-4 {
+  background: url("../img/gallery 1.jpg");
 }
 
 .slide {
@@ -973,15 +977,6 @@ body {
   padding: 18px;
 }
 
-.caption p {
-  max-width: 600px;
-  width: 90%;
-  margin: 0px auto;
-  text-align: center;
-  font-size: 18px;
-  line-height: 1.5em;
-}
-
 #button {
   padding-right: 2.5rem;
   padding-left: 2.5rem;
@@ -993,7 +988,7 @@ body {
   width: 44px;
   height: 44px;
   position: absolute;
-  top: 50%;
+  top: 33%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   cursor: pointer;
