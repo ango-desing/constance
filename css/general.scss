@@ -303,41 +303,39 @@ button {
   position: relative;
   overflow-x: hidden;
   z-index: 1;
-  display: flex;
-  justify-content: center;
+}
   .slider-img{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  img{
+    top: 48%;
+    transform: translateY(-50%);
     position: absolute;
-    width: 45%;
-    height: 280px;
-    border-top-left-radius: 11rem;
-    border-top-right-radius: 11rem;
-    object-fit: cover;
-    display: flex;
-    align-items: center;
+    img{
+
+      width: 42%;
+      height: 270px;
+      border-top-left-radius: 11rem;
+      border-top-right-radius: 11rem;
+      object-fit: cover;
+    }
   }
-}
 .caption {
-  background: rgba(0, 0, 0, 0.03);
   width: 100%;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  padding: 40px 0px;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.caption a {
-  color: $negro;
-  text-align: center;
-  font-size: 150px;
-}
+  a {
+    color: $negro;
+    text-align: center;
+    font-size: 12vw;
 
+  }
+}
 .button {
  color: black;
   width: 100px;
@@ -347,24 +345,39 @@ button {
   cursor: pointer;
   z-index: 2;
 }
-  .button i {
-      display: block;
+  
+  .button-btn{
+      bottom: 0;
+      left: 34px;
+      margin: auto;
       position: absolute;
-      margin: -10px 0 0 -10px;
-      width: 20px;
-      height: 20px;
-      left: 50%;
-      top: 50%;
-      color: black;
-      font-size: 40px;
-      line-height: 1px;
+      top: 0;
+      height: 30px;
+      width: 30px;
+      cursor: pointer;
+      z-index: 2;
+      #PRDG_logo_Horizontal_Color {
+        #Circulo---imagotipo {
+          fill: #000000;
+        }
+    }
   }
-  .l {
-    left: 0;
+  .button-next{
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    right: 34px;
+    top: 0;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    z-index: 2;
+    #PRDG_logo_Horizontal_Color {
+      #Circulo---imagotipo {
+        fill: #000000;
+      }
   }
-  .r {
-    right: 0;
-  }
+}
 /* medias */
 @media (min-width: 500px){
 

@@ -17,7 +17,7 @@ function next(){
 
     var x = 0.4;
     var intX = setInterval(function(){
-        x+=0.1;
+        x+=0.5;
         slide[current].style.opacity = x;
         if(x >= 1) {
             clearInterval(intX);
@@ -37,7 +37,7 @@ function prev(){
 
     var x = 0.4;
     var intX = setInterval(function(){
-        x+=0.1;
+        x+=0.5;
         slide[current].style.opacity = x;
         if(x >= 1) {
             clearInterval(intX);
@@ -52,3 +52,33 @@ function start(){
     slide[current].style.display = 'block';
 }
 start();
+
+$ (document).ready(function(){
+  var mySwiper = new Swiper('.slide', {
+    loop: true,
+    effect: 'fade',
+    speed : 1500,
+    
+    navigation: {
+      nextEl: next,
+      prevEl : prev,
+    },
+  })
+
+mySwiper.on('slideChangeTransitionStart', function() {
+  anime({
+      targets: '.slide .slider-img img',
+      opacity: [0, 1],
+      delay: anime.stagger(200, {start: 300, from :'last'}),
+      easing: 'easeInOutQuart'
+    });
+ });
+
+anime({
+  targets: '.slider-img',
+  opacity: [0, 1],
+  delay: anime.stagger(200, {start: 300, from :'last'}),
+  easing: 'easeInOutQuart'
+});
+
+});
