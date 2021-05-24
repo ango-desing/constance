@@ -14,9 +14,6 @@
 html{
   scroll-behavior: smooth;
 }
-body{
-  background-color: $lemon;
-}
 .main{
 width: 100%;
 }
@@ -29,6 +26,7 @@ width: 100%;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-color: $lemon;
   .img1{
     width: 100%;
     display: block;

@@ -16,10 +16,6 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  background-color: #A2A183;
-}
-
 .main {
   width: 100%;
 }
@@ -42,6 +38,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  background-color: #A2A183;
 }
 
 .background .img1 {
