@@ -161,6 +161,9 @@ i{
 }
 /*medias*/
 @media (max-width: 500px){
+    .white-menu{
+        width: 100%;
+    
   nav{
     padding-right: 2.5rem;
     padding-left: 2.5rem;
@@ -209,8 +212,12 @@ i{
   i{
     font-size: 20px;
   }
+  }
 }
 @media (max-width: 350px){
+    .white-menu{
+        width: 100%;
+    
   #menuToggle
   {
     top: 2px;
@@ -233,5 +240,5 @@ i{
    i{
     font-size: 15px;
   }
-  
+}
 }
