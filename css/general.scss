@@ -293,7 +293,9 @@ button {
     transform: translateY(-50%);
     position: absolute;
     img{
-
+      display: flex;
+      align-items: center;
+      justify-content: center;
       width: 42%;
       height: 270px;
       border-top-left-radius: 11rem;
