@@ -1,33 +1,13 @@
-* {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-*, ::before, ::after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Avenir Next", "Avenir", sans-serif;
-}
-
 /*menu*/
-header {
-  height: 100px;
+.white-menu {
+  height: 105px;
   position: relative;
   background-position: right bottom;
   display: block;
   z-index: 3;
 }
 
-nav {
+.white-menu nav {
   padding-right: 6.5rem;
   padding-left: 6.5rem;
   position: fixed;
@@ -46,10 +26,10 @@ nav {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 100%;
-  background: #A2A183;
+  background: #ffff;
 }
 
-#menuToggle {
+.white-menu #menuToggle {
   display: -ms-grid;
   display: grid;
   position: relative;
@@ -61,18 +41,18 @@ nav {
   z-index: 1;
 }
 
-#menuToggle a {
+.white-menu #menuToggle a {
   text-decoration: none;
   color: #ffff;
   -webkit-transition: color 0.3s ease;
   transition: color 0.3s ease;
 }
 
-#menuToggle a:hover {
+.white-menu #menuToggle a:hover {
   color: #dfdfdf;
 }
 
-#menuToggle input {
+.white-menu #menuToggle input {
   width: 40px;
   height: 32px;
   position: absolute;
@@ -84,12 +64,12 @@ nav {
   -webkit-touch-callout: none;
 }
 
-#menuToggle span {
+.white-menu #menuToggle span {
   width: 28px;
   height: 2px;
   margin-bottom: 5px;
   position: relative;
-  background: #ffff;
+  background: #000000;
   border-radius: 2px;
   z-index: 1;
   -webkit-transform-origin: 4px 0px;
@@ -100,35 +80,35 @@ nav {
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
-#menuToggle span:first-child {
+.white-menu #menuToggle span:first-child {
   -webkit-transform-origin: 0% 0%;
           transform-origin: 0% 0%;
 }
 
-#menuToggle span:nth-last-child(2) {
+.white-menu #menuToggle span:nth-last-child(2) {
   -webkit-transform-origin: 0% 100%;
           transform-origin: 0% 100%;
 }
 
-#menuToggle input:checked ~ span {
+.white-menu #menuToggle input:checked ~ span {
   opacity: 1;
   -webkit-transform: rotate(38deg) translate(-2px, -1px);
           transform: rotate(38deg) translate(-2px, -1px);
   background: #ffff;
 }
 
-#menuToggle input:checked ~ span:nth-last-child(3) {
+.white-menu #menuToggle input:checked ~ span:nth-last-child(3) {
   opacity: 0;
   -webkit-transform: rotate(0deg) scale(0.2, 0.2);
           transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-#menuToggle input:checked ~ span:nth-last-child(2) {
+.white-menu #menuToggle input:checked ~ span:nth-last-child(2) {
   -webkit-transform: rotate(-38deg) translate(0, -1px);
           transform: rotate(-38deg) translate(0, -1px);
 }
 
-#menu {
+.white-menu #menu {
   position: fixed;
   width: 350px;
   margin: -100px 0 0 -120px;
@@ -162,23 +142,23 @@ nav {
   transition: transform 1s cubic-bezier(0.77, 0.2, 0.05, 1), -webkit-transform 1s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
-#menu li {
+.white-menu #menu li {
   display: block;
   padding: 9px 0;
   font-size: 21px;
 }
 
-#menu li a {
+.white-menu #menu li a {
   display: block;
   color: #ffff;
 }
 
-#menuToggle input:checked ~ ul {
+.white-menu #menuToggle input:checked ~ ul {
   -webkit-transform: none;
           transform: none;
 }
 
-.terms {
+.white-menu .terms {
   padding-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -192,7 +172,7 @@ nav {
   height: 100%;
 }
 
-.sub-terms-item {
+.white-menu .sub-terms-item {
   text-decoration: none;
   color: #ccc8db;
   padding: 10px 10px;
@@ -201,91 +181,97 @@ nav {
   border-radius: 20px;
 }
 
-.logo {
+.white-menu .logo {
   margin-top: 14px;
 }
 
-.logo img {
+.white-menu .logo img {
   height: 24px;
   margin-bottom: 9px;
 }
 
-i {
-  color: #ffff;
+.white-menu i {
+  color: #4D4D4D;
   font-size: 23px;
   cursor: pointer;
 }
 
 /*medias*/
 @media (max-width: 500px) {
-  nav {
+  .white-menu {
+    width: 100%;
+    /*menu*/
+  }
+  .white-menu nav {
     padding-right: 2.5rem;
     padding-left: 2.5rem;
     -ms-flex-line-pack: center;
         align-content: center;
   }
-  /*menu*/
-  #menu {
+  .white-menu #menu {
     overflow: hidden;
     margin: -100px 0 0 -120px;
     padding: 100px;
     padding-top: 225px;
     padding-right: 30px;
   }
-  #menuToggle {
+  .white-menu #menuToggle {
     top: 2px;
   }
-  #menuToggle span {
+  .white-menu #menuToggle span {
     width: 22px;
     height: 2px;
     margin-bottom: 3px;
   }
-  #menu li {
+  .white-menu #menu li {
     padding: 9px 0;
     font-size: 18px;
   }
-  .terms {
+  .white-menu .terms {
     margin-top: 175px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
     right: 20px;
   }
-  .sub-terms-item {
+  .white-menu .sub-terms-item {
     padding: 5px 5px;
   }
-  .logo {
+  .white-menu .logo {
     margin-top: 5px;
   }
-  .logo img {
+  .white-menu .logo img {
     height: 20px;
     margin-top: 8px;
   }
-  i {
+  .white-menu i {
     font-size: 20px;
   }
 }
 
 @media (max-width: 350px) {
-  #menuToggle {
+  .white-menu {
+    width: 100%;
+  }
+  .white-menu #menuToggle {
     top: 2px;
   }
-  #menuToggle span {
+  .white-menu #menuToggle span {
     width: 20px;
     height: 1.2px;
     margin-bottom: 3.3px;
   }
-  nav {
+  .white-menu nav {
     padding-right: 1.5rem;
     padding-left: 1.5rem;
     font-size: 12px;
   }
-  .logo img {
+  .white-menu .logo img {
     height: 18px;
     margin-top: 7px;
   }
-  i {
+  .white-menu i {
     font-size: 15px;
   }
 }
-/*# sourceMappingURL=menu.css.map */
+/*# sourceMappingURL=white-menu.css.map */
