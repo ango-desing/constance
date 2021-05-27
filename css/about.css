@@ -206,6 +206,7 @@
 .about .box1 .img-box {
   position: absolute;
   top: 70px;
+  left: 0;
 }
 
 .about .box1 .img-box img {
