@@ -1354,7 +1354,7 @@ html {
   padding-right: 2.5rem;
   padding-left: 2.5rem;
   background: #ffff;
-  height: 1100px;
+  height: 1000px;
   margin: 0 auto;
 }
 
@@ -1404,8 +1404,8 @@ html {
 
 .about .box1 h1 {
   font-size: 25px;
+  padding-left: 18%;
   padding-bottom: 2rem;
-  padding-right: 6rem;
   z-index: 1;
 }
 
@@ -1413,7 +1413,7 @@ html {
   width: 100%;
   height: 40%;
   left: 0;
-  top: 0;
+  top: -25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
