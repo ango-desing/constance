@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AACA,WAAW",
     "sources": [
-        "contact.scss"
+        "contact.scss",
+        "variables.scss"
     ],
     "names": [],
     "file": "contact.css"
