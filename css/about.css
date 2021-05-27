@@ -291,6 +291,7 @@
   text-align: justify;
   font-size: 12px;
   padding-top: 8rem;
+  z-index: -1;
 }
 
 /* medias */
