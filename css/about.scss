@@ -172,11 +172,11 @@
         .img-box{
             position: absolute;
             top: 50px;
-            display: flex;
-            justify-content: flex-end;
+           
             img{
                 width: 34%;
                 height: 186px;
+                float: right;
                 border-top-left-radius: 11rem;
                 border-top-right-radius: 11rem;
                 object-fit: cover;

@@ -255,17 +255,12 @@
 .about .box2 .img-box {
   position: absolute;
   top: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
 }
 
 .about .box2 .img-box img {
   width: 34%;
   height: 186px;
+  float: right;
   border-top-left-radius: 11rem;
   border-top-right-radius: 11rem;
   -o-object-fit: cover;
