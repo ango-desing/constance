@@ -118,25 +118,92 @@
 }
 .about{
     width: 100%;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
     background: $blanco;
-    height: 700px;
+    height: 1100px;
+    margin: 0 auto;
     .box1{
-        img{
-            width: 42%;
-            height: 170px;
-            border-top-left-radius: 11rem;
-            border-top-right-radius: 11rem;
-            object-fit: cover;
+        width: 100%;
+        height: 55%;
+        right: 0;
+        top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        .img-box{
+            position: absolute;
+            top: 70px;
+            img{
+                width: 34%;
+                height: 186px;
+                border-top-left-radius: 11rem;
+                border-top-right-radius: 11rem;
+                object-fit: cover;
+            }
+        }      
+        p{
+            padding-left: 42%;
+            text-align: justify;
+            font-size: 12px;
+        }
+        h1{
+            font-size: 25px;
+            padding-bottom: 2rem;
+            padding-right: 6rem;
+            z-index: 1;
+
         }
     }
     .box2{
-        img{
-            width: 42%;
-            height: 170px;
-            border-top-left-radius: 11rem;
-            border-top-right-radius: 11rem;
-            object-fit: cover;
+        width: 100%;
+        height: 40%;
+        left: 0;
+        top: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+        position: relative;
+        .img-box{
+            position: absolute;
+            top: 50px;
+            display: flex;
+            justify-content: flex-end;
+            img{
+                width: 34%;
+                height: 186px;
+                border-top-left-radius: 11rem;
+                border-top-right-radius: 11rem;
+                object-fit: cover;
+            }
         }
+       
+        .h1{
+            width: 100%;
+            padding-left: 3rem;
+            position: absolute;
+            h1{
+                font-size: 25px;
+                padding-bottom: 40px;
+                padding-top: 3.5rem;
+                padding-right: 4rem;
+                z-index: 1;
+            }   
+        }
+         .texto{
+            padding-left: 0;
+            width: 100%;
+            p{
+                padding-right: 47%;
+                text-align: justify;
+                font-size: 12px;
+                padding-top: 8rem;
+            }
+         }
     }
 }
 /* medias */
@@ -144,6 +211,66 @@
 @media (min-width: 500px){
     .gallery__text{
         width: 60%;
+    }
+    .about{
+        width: 100%;
+        height: 1050px;
+        .box1{
+            width: 100%;
+            height: 57%;
+           
+            padding-left: 2.5rem;
+            .img-box{
+                position: absolute;
+                top: 80px;
+                img{
+                    width: 35%;
+                    height: 286px;
+                }
+            }      
+            p{
+                padding-left: 42%;
+                text-align: justify;
+                font-size: 12px;
+            }
+            h1{
+                font-size: 35px;
+                padding-bottom: 2rem;
+                padding-right: 6rem;
+                z-index: 1; 
+            }
+        }
+        .box2{
+            width: 100%;
+            height: 40%;
+           
+            .img-box{
+                position: absolute;
+                top: 50px;
+                padding-right: 1.5rem;
+                img{
+                    width: 35%;
+                    height: 286px;
+                }
+            }          
+            .h1{
+                padding-left: 1.5rem;
+                position: absolute;
+                h1{
+                    font-size: 35px;
+                }   
+            }
+             .texto{
+                padding-left: 1.5rem;
+                width: 100%;
+                p{
+                    padding-right: 47%;
+                    text-align: justify;
+                    font-size: 12px;
+                    padding-top: 8rem;
+                }
+             }
+        }
     }
     /* info */
 }
@@ -311,6 +438,8 @@
                 padding-left: 60%;
                 padding-right: 0rem;
                 position: absolute;
+                display: flex;
+                justify-content: space-around;
                 top: 30px;
                 right: 0;
                 img{
@@ -351,7 +480,7 @@
 @media (min-width: 1100px){
 
 .gallery__text{
-    width: 80%;
+    width: 70%;
 }
 .info-product{
     width: 100%;

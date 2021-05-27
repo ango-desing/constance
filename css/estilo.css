@@ -1351,32 +1351,192 @@ html {
 
 .about {
   width: 100%;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
   background: #ffff;
-  height: 700px;
+  height: 1100px;
+  margin: 0 auto;
 }
 
-.about .box1 img {
-  width: 42%;
-  height: 170px;
+.about .box1 {
+  width: 100%;
+  height: 55%;
+  right: 0;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.about .box1 .img-box {
+  position: absolute;
+  top: 70px;
+}
+
+.about .box1 .img-box img {
+  width: 34%;
+  height: 186px;
   border-top-left-radius: 11rem;
   border-top-right-radius: 11rem;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.about .box2 img {
-  width: 42%;
-  height: 170px;
+.about .box1 p {
+  padding-left: 42%;
+  text-align: justify;
+  font-size: 12px;
+}
+
+.about .box1 h1 {
+  font-size: 25px;
+  padding-bottom: 2rem;
+  padding-right: 6rem;
+  z-index: 1;
+}
+
+.about .box2 {
+  width: 100%;
+  height: 40%;
+  left: 0;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  position: relative;
+}
+
+.about .box2 .img-box {
+  position: absolute;
+  top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.about .box2 .img-box img {
+  width: 34%;
+  height: 186px;
   border-top-left-radius: 11rem;
   border-top-right-radius: 11rem;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.about .box2 .h1 {
+  width: 100%;
+  padding-left: 3rem;
+  position: absolute;
+}
+
+.about .box2 .h1 h1 {
+  font-size: 25px;
+  padding-bottom: 40px;
+  padding-top: 3.5rem;
+  padding-right: 4rem;
+  z-index: 1;
+}
+
+.about .box2 .texto {
+  padding-left: 0;
+  width: 100%;
+}
+
+.about .box2 .texto p {
+  padding-right: 47%;
+  text-align: justify;
+  font-size: 12px;
+  padding-top: 8rem;
 }
 
 /* medias */
 @media (min-width: 500px) {
   .gallery__text {
     width: 60%;
+  }
+  .about {
+    width: 100%;
+    height: 1050px;
+  }
+  .about .box1 {
+    width: 100%;
+    height: 57%;
+    padding-left: 2.5rem;
+  }
+  .about .box1 .img-box {
+    position: absolute;
+    top: 80px;
+  }
+  .about .box1 .img-box img {
+    width: 35%;
+    height: 286px;
+  }
+  .about .box1 p {
+    padding-left: 42%;
+    text-align: justify;
+    font-size: 12px;
+  }
+  .about .box1 h1 {
+    font-size: 35px;
+    padding-bottom: 2rem;
+    padding-right: 6rem;
+    z-index: 1;
+  }
+  .about .box2 {
+    width: 100%;
+    height: 40%;
+  }
+  .about .box2 .img-box {
+    position: absolute;
+    top: 50px;
+    padding-right: 1.5rem;
+  }
+  .about .box2 .img-box img {
+    width: 35%;
+    height: 286px;
+  }
+  .about .box2 .h1 {
+    padding-left: 1.5rem;
+    position: absolute;
+  }
+  .about .box2 .h1 h1 {
+    font-size: 35px;
+  }
+  .about .box2 .texto {
+    padding-left: 1.5rem;
+    width: 100%;
+  }
+  .about .box2 .texto p {
+    padding-right: 47%;
+    text-align: justify;
+    font-size: 12px;
+    padding-top: 8rem;
   }
   /* info */
 }
@@ -1609,6 +1769,11 @@ html {
     padding-left: 60%;
     padding-right: 0rem;
     position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     top: 30px;
     right: 0;
   }
@@ -1645,7 +1810,7 @@ html {
 
 @media (min-width: 1100px) {
   .gallery__text {
-    width: 80%;
+    width: 70%;
   }
   .info-product {
     width: 100%;
