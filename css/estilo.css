@@ -1388,8 +1388,8 @@ html {
 }
 
 .about .box1 .img-box img {
-  width: 34%;
-  height: 186px;
+  width: 36%;
+  height: 210px;
   border-top-left-radius: 11rem;
   border-top-right-radius: 11rem;
   -o-object-fit: cover;
@@ -1433,11 +1433,12 @@ html {
 .about .box2 .img-box {
   position: absolute;
   top: 50px;
+  right: 0;
 }
 
 .about .box2 .img-box img {
-  width: 34%;
-  height: 186px;
+  width: 36%;
+  height: 210px;
   float: right;
   border-top-left-radius: 11rem;
   border-top-right-radius: 11rem;
@@ -1461,7 +1462,6 @@ html {
 
 .about .box2 .texto {
   padding-left: 0;
-  width: 100%;
 }
 
 .about .box2 .texto p {
@@ -1527,7 +1527,6 @@ html {
   }
   .about .box2 .texto {
     padding-left: 1.5rem;
-    width: 100%;
   }
   .about .box2 .texto p {
     padding-right: 47%;
