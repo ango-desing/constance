@@ -1398,7 +1398,7 @@ html {
 
 .about .box1 p {
   padding-left: 42%;
-  text-align: justify;
+  text-align: left;
   font-size: 12px;
 }
 
@@ -1466,7 +1466,7 @@ html {
 
 .about .box2 .texto p {
   padding-right: 47%;
-  text-align: justify;
+  text-align: left;
   font-size: 12px;
   padding-top: 8rem;
   z-index: -1;
