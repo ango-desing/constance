@@ -2148,7 +2148,7 @@ html {
   padding-right: 2.5rem;
   padding-left: 2.5rem;
   width: 100%;
-  height: 480px;
+  height: 250px;
   background: #ffff;
   position: relative;
   display: -webkit-box;
@@ -2183,14 +2183,12 @@ html {
 }
 
 .form .info-img img {
-  width: 170px;
+  width: 250px;
   display: block;
 }
 
 .form .left-sidebar {
-  text-align: center;
-  font-size: 12px;
-  padding-top: 50px;
+  display: none;
 }
 
 .align-center {
@@ -2337,6 +2335,9 @@ html {
   }
   .form .info-img img {
     width: 340px;
+    display: block;
+  }
+  .form .left-sidebar {
     display: block;
   }
   .get-in-touch {
