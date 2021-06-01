@@ -50,21 +50,30 @@
 
 <!--===== main =====-->
 
-<section class="form">
+  <section class="form">
+    <div class="fondo"></div>
+    <div class="box">
     <div class="info-img">
       <img src="img/photo2.png" alt="">
     </div>
-      <div class="left-sidebar">
-            <p class="t1">conctact</p>
-            <p class="t2">number: 4325246767</p>
-            <p class="t3">constance@gmail.com</p>
-            <p class="Dimensions">SUBSCRIBE TO THE CONSTANCE
-                YOUR EMAIL ADDRESS.
-                </p>
-            <p class="safe">Sign up to receive 10% off your first order. By 
-                signing up I agree to the constance.</p>
+    <div class="side-box">
+      <div class="right-sidebar">
+          <p class="t1">You can contact us</p>
+          <p class="t2">Direction: Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+          <p class="t2">number: 4325246767</p>
+          <p class="t3">constance@gmail.com</p>
       </div>
+      <div class="left-sidebar">
+        <p class="Dimensions">SUBSCRIBE TO THE CONSTANCE
+          YOUR EMAIL ADDRESS.
+          </p>
+      <p class="safe">Sign up to receive 10% off your first order. By 
+          signing up I agree to the constance.</p>
+      </div>
+    </div>
+    </div>
   </section>
+ 
   
   <section class="get-in-touch">
     <h1 class="title">contact</h1>
@@ -86,30 +95,7 @@
        </div>
     </form>
  </section>
- 
- <div class="container">
-    <div class="row">
-        <div class="col-md-4 offset-md-4 mail-form">
-            <h2 class="text-center">Send Message</h2>
-            <p class="text-center">Send mail to anyone from localhost.</p>
-    
-            <form action="mail.php" method="POST">
-                <div class="form-group">
-                    <input class="form-control" name="email" type="email" placeholder="Recipients" value="<?php echo $recipient ?>">
-                </div>
-                <div class="form-group">
-                    <input class="form-control" name="subject" type="text" placeholder="Subject">
-                </div>
-                <div class="form-group">
-                    <textarea cols="30" rows="5" class="form-control textarea" name="message" placeholder="Compose your message.."></textarea>
-                </div>
-                <div class="form-group">
-                    <input class="form-control button btn-primary" type="submit" name="send" value="Send" placeholder="Subject">
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
+
 
 <!--===== footer =====-->
       <footer>
