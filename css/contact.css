@@ -91,13 +91,11 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin-left: 125px;
   }
   .box .side-box i {
     padding-bottom: 20px;
@@ -114,9 +112,6 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -124,6 +119,22 @@
   }
   .box2 img {
     height: 300px;
+  }
+  .box2 .gmail {
+    position: relative;
+  }
+  .box2 .gmail .button-gmail {
+    bottom: 0;
+    margin: auto;
+    right: 34px;
+    top: 0;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    z-index: 2;
+  }
+  .box2 .gmail .button-gmail #PRDG_logo_Horizontal_Color #Circulo---imagotipo {
+    fill: #000000;
   }
 }
 /*# sourceMappingURL=contact.css.map */
