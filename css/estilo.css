@@ -2388,7 +2388,7 @@ html {
 }
 
 .box2 .link p {
-  width: 80%;
+  width: 90%;
   margin-bottom: 30px;
   font-size: 12px;
 }
@@ -2421,9 +2421,9 @@ html {
   color: #686230;
   cursor: pointer;
   z-index: 2;
-  margin-left: 10px;
+  margin-left: 6px;
   margin-right: 10px;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 /* medias */
