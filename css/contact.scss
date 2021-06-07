@@ -25,7 +25,7 @@
       object-fit: cover;
     
      } 
-     .box{
+     .honolulu{
         width: 50%;
         padding-right: 1.5rem;
         padding-left: 2.5rem;
@@ -114,7 +114,7 @@
         }
  
    }
-   .box2{
+   .email-contact{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
@@ -190,7 +190,7 @@
        height: 200px;
        object-fit: cover;
       } 
-    .box{
+    .honolulu{
         padding-right: 2.5rem;
         padding-left: 2.5rem;
         padding-top: 80px;
@@ -281,7 +281,7 @@
         }
   
     }
-    .box2{
+    .email-contact{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(5, 1fr);
@@ -305,7 +305,7 @@
             align-items: center;
             padding-left: 40px;
             p{
-                width: 365px;
+                width: 280px;
                 margin-bottom: 30px;
                 font-size: 16px;
             }
@@ -341,10 +341,8 @@
     }
  
  }
-@media (min-width: 1024px){
- 
-    
-    .box{
+@media (min-width: 1024px){  
+    .honolulu{
         display: flex;
         justify-content: space-around;
 
@@ -408,7 +406,7 @@
         }
   
     }
-    .box2{
+    .email-contact{
         height: 390px;
         img{
             height: 350px;

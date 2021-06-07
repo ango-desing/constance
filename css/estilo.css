@@ -2183,7 +2183,7 @@ html {
      object-fit: cover;
 }
 
-.box {
+.honolulu {
   width: 50%;
   padding-right: 1.5rem;
   padding-left: 2.5rem;
@@ -2209,7 +2209,7 @@ html {
   height: 350px;
 }
 
-.box .div1 {
+.honolulu .div1 {
   -ms-grid-row: 1;
   -ms-grid-row-span: 3;
   -ms-grid-column: 1;
@@ -2228,26 +2228,26 @@ html {
   text-align: left;
 }
 
-.box .div1 i {
+.honolulu .div1 i {
   padding-top: 25px;
 }
 
-.box .div1 .fas {
+.honolulu .div1 .fas {
   color: #000000;
   font-size: 15px;
   cursor: default;
 }
 
-.box .div1 .bold {
+.honolulu .div1 .bold {
   font-weight: bold;
 }
 
-.box .div1 p {
+.honolulu .div1 p {
   padding-bottom: 8px;
   font-size: 12px;
 }
 
-.box .div2 {
+.honolulu .div2 {
   -ms-grid-row: 1;
   -ms-grid-row-span: 3;
   -ms-grid-column: 3;
@@ -2266,26 +2266,26 @@ html {
   text-align: left;
 }
 
-.box .div2 i {
+.honolulu .div2 i {
   padding-top: 25px;
 }
 
-.box .div2 .fas {
+.honolulu .div2 .fas {
   color: #000000;
   font-size: 15px;
   cursor: default;
 }
 
-.box .div2 .bold {
+.honolulu .div2 .bold {
   font-weight: bold;
 }
 
-.box .div2 p {
+.honolulu .div2 p {
   padding-bottom: 8px;
   font-size: 12px;
 }
 
-.box .div3 {
+.honolulu .div3 {
   -ms-grid-row: 1;
   -ms-grid-row-span: 3;
   -ms-grid-column: 5;
@@ -2304,26 +2304,26 @@ html {
   text-align: left;
 }
 
-.box .div3 i {
+.honolulu .div3 i {
   padding-top: 25px;
 }
 
-.box .div3 .fas {
+.honolulu .div3 .fas {
   color: #000000;
   font-size: 15px;
   cursor: default;
 }
 
-.box .div3 .bold {
+.honolulu .div3 .bold {
   font-weight: bold;
 }
 
-.box .div3 p {
+.honolulu .div3 p {
   padding-bottom: 8px;
   font-size: 12px;
 }
 
-.box .div3 li {
+.honolulu .div3 li {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2334,13 +2334,13 @@ html {
           flex-direction: column;
 }
 
-.box .div3 li a {
+.honolulu .div3 li a {
   text-decoration: none;
   color: #686230;
   font-size: 12px;
 }
 
-.box2 {
+.email-contact {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[4];
@@ -2362,7 +2362,7 @@ html {
           align-items: center;
 }
 
-.box2 img {
+.email-contact img {
   height: 140px;
   -ms-grid-row: 1;
   -ms-grid-row-span: 5;
@@ -2371,7 +2371,7 @@ html {
   grid-area: 1 / 1 / 6 / 3;
 }
 
-.box2 .link {
+.email-contact .link {
   -ms-grid-row: 1;
   -ms-grid-row-span: 5;
   -ms-grid-column: 3;
@@ -2390,13 +2390,13 @@ html {
   width: 50%;
 }
 
-.box2 .link p {
+.email-contact .link p {
   width: 90%;
   margin-bottom: 30px;
   font-size: 12px;
 }
 
-.box2 .gmail {
+.email-contact .gmail {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2405,7 +2405,7 @@ html {
           align-items: center;
 }
 
-.box2 .gmail .button-gmail {
+.email-contact .gmail .button-gmail {
   bottom: 0;
   right: 34px;
   top: 0;
@@ -2415,11 +2415,11 @@ html {
   z-index: 2;
 }
 
-.box2 .gmail .button-gmail #PRDG_logo_Horizontal_Color #Circulo---imagotipo {
+.email-contact .gmail .button-gmail #PRDG_logo_Horizontal_Color #Circulo---imagotipo {
   fill: #686230;
 }
 
-.box2 .gmail a {
+.email-contact .gmail a {
   text-decoration: none;
   color: #686230;
   cursor: pointer;
@@ -2446,7 +2446,7 @@ html {
     -o-object-fit: cover;
        object-fit: cover;
   }
-  .box {
+  .honolulu {
     padding-right: 2.5rem;
     padding-left: 2.5rem;
     padding-top: 80px;
@@ -2470,7 +2470,7 @@ html {
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  .box .div1 {
+  .honolulu .div1 {
     -ms-grid-row: 1;
     -ms-grid-row-span: 3;
     -ms-grid-column: 1;
@@ -2488,21 +2488,21 @@ html {
             flex-direction: column;
     text-align: left;
   }
-  .box .div1 i {
+  .honolulu .div1 i {
     padding-bottom: 25px;
   }
-  .box .div1 .fas {
+  .honolulu .div1 .fas {
     color: #000000;
     font-size: 16px;
   }
-  .box .div1 .bold {
+  .honolulu .div1 .bold {
     font-weight: bold;
   }
-  .box .div1 p {
+  .honolulu .div1 p {
     padding-bottom: 8px;
     font-size: 14px;
   }
-  .box .div2 {
+  .honolulu .div2 {
     -ms-grid-row: 1;
     -ms-grid-row-span: 3;
     -ms-grid-column: 3;
@@ -2520,21 +2520,21 @@ html {
             flex-direction: column;
     text-align: left;
   }
-  .box .div2 i {
+  .honolulu .div2 i {
     padding-bottom: 25px;
   }
-  .box .div2 .fas {
+  .honolulu .div2 .fas {
     color: #000000;
     font-size: 16px;
   }
-  .box .div2 .bold {
+  .honolulu .div2 .bold {
     font-weight: bold;
   }
-  .box .div2 p {
+  .honolulu .div2 p {
     padding-bottom: 8px;
     font-size: 14px;
   }
-  .box .div3 {
+  .honolulu .div3 {
     -ms-grid-row: 1;
     -ms-grid-row-span: 3;
     -ms-grid-column: 5;
@@ -2552,21 +2552,21 @@ html {
             flex-direction: column;
     text-align: left;
   }
-  .box .div3 i {
+  .honolulu .div3 i {
     padding-bottom: 25px;
   }
-  .box .div3 .fas {
+  .honolulu .div3 .fas {
     color: #000000;
     font-size: 16px;
   }
-  .box .div3 .bold {
+  .honolulu .div3 .bold {
     font-weight: bold;
   }
-  .box .div3 p {
+  .honolulu .div3 p {
     padding-bottom: 8px;
     font-size: 14px;
   }
-  .box .div3 li {
+  .honolulu .div3 li {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2576,13 +2576,13 @@ html {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .box .div3 li a {
+  .honolulu .div3 li a {
     text-decoration: none;
     color: #686230;
     font-size: 14px;
     padding-bottom: 5px;
   }
-  .box2 {
+  .email-contact {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (1fr)[4];
@@ -2600,7 +2600,7 @@ html {
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
   }
-  .box2 img {
+  .email-contact img {
     height: 300px;
     -ms-grid-row: 1;
     -ms-grid-row-span: 5;
@@ -2609,7 +2609,7 @@ html {
     grid-area: 1 / 1 / 6 / 3;
     padding-left: 100px;
   }
-  .box2 .link {
+  .email-contact .link {
     -ms-grid-row: 1;
     -ms-grid-row-span: 5;
     -ms-grid-column: 3;
@@ -2630,12 +2630,12 @@ html {
             align-items: center;
     padding-left: 40px;
   }
-  .box2 .link p {
-    width: 365px;
+  .email-contact .link p {
+    width: 280px;
     margin-bottom: 30px;
     font-size: 16px;
   }
-  .box2 .gmail {
+  .email-contact .gmail {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2643,7 +2643,7 @@ html {
         -ms-flex-align: center;
             align-items: center;
   }
-  .box2 .gmail .button-gmail {
+  .email-contact .gmail .button-gmail {
     bottom: 0;
     right: 34px;
     top: 0;
@@ -2652,10 +2652,10 @@ html {
     cursor: pointer;
     z-index: 2;
   }
-  .box2 .gmail .button-gmail #PRDG_logo_Horizontal_Color #Circulo---imagotipo {
+  .email-contact .gmail .button-gmail #PRDG_logo_Horizontal_Color #Circulo---imagotipo {
     fill: #686230;
   }
-  .box2 .gmail a {
+  .email-contact .gmail a {
     text-decoration: none;
     color: #686230;
     cursor: pointer;
@@ -2668,56 +2668,56 @@ html {
 }
 
 @media (min-width: 1024px) {
-  .box {
+  .honolulu {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
-  .box .div1 i {
+  .honolulu .div1 i {
     padding-bottom: 25px;
   }
-  .box .div1 .fas {
+  .honolulu .div1 .fas {
     color: #000000;
     font-size: 21px;
   }
-  .box .div1 .bold {
+  .honolulu .div1 .bold {
     font-weight: bold;
   }
-  .box .div1 p {
+  .honolulu .div1 p {
     padding-bottom: 8px;
     font-size: 16px;
   }
-  .box .div2 i {
+  .honolulu .div2 i {
     padding-bottom: 25px;
   }
-  .box .div2 .fas {
+  .honolulu .div2 .fas {
     color: #000000;
     font-size: 21px;
   }
-  .box .div2 .bold {
+  .honolulu .div2 .bold {
     font-weight: bold;
   }
-  .box .div2 p {
+  .honolulu .div2 p {
     padding-bottom: 8px;
     font-size: 16px;
   }
-  .box .div3 i {
+  .honolulu .div3 i {
     padding-bottom: 25px;
   }
-  .box .div3 .fas {
+  .honolulu .div3 .fas {
     color: #000000;
     font-size: 21px;
   }
-  .box .div3 .bold {
+  .honolulu .div3 .bold {
     font-weight: bold;
   }
-  .box .div3 p {
+  .honolulu .div3 p {
     padding-bottom: 8px;
     font-size: 16px;
   }
-  .box .div3 li {
+  .honolulu .div3 li {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2727,15 +2727,15 @@ html {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .box .div3 li a {
+  .honolulu .div3 li a {
     text-decoration: none;
     color: #686230;
     font-size: 16px;
   }
-  .box2 {
+  .email-contact {
     height: 390px;
   }
-  .box2 img {
+  .email-contact img {
     height: 350px;
     -ms-grid-row: 1;
     -ms-grid-row-span: 5;
@@ -2743,11 +2743,11 @@ html {
     -ms-grid-column-span: 2;
     grid-area: 1 / 1 / 6 / 3;
   }
-  .box2 .link p {
+  .email-contact .link p {
     width: 385px;
     margin-bottom: 30px;
   }
-  .box2 .gmail a {
+  .email-contact .gmail a {
     text-decoration: none;
     color: #686230;
     cursor: pointer;
