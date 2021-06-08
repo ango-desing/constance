@@ -38,14 +38,84 @@
                 overflow: visible;
                 width: 15px;
                 transform: matrix(1,0,0,1,0,0);
+                transition: transform 0.5s ease-in;
             }
         }
         .answer{
             max-height: 0;
             overflow: hidden;
+            transition: max-height 1s ease-in;
             p{
                 font-size: 12px;
             }
+        }
+        
+    }
+    .asked.active .Trazado_375{
+        transform: rotate(180deg);
+    }
+    .asked.active .answer{
+        max-height: 300px;
+    }
+    
+}
+
+@media (min-width: 525px){
+    .faq{
+        width: 100%;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        .asked{
+            margin-top: 1rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid rgb(105, 105, 105);
+            cursor: pointer;
+            .question{
+                padding-bottom: 15px;
+                h3{
+                    font-size: 13px;
+                }
+            }
+            .answer{
+                p{
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1025px){
+    .faq{
+        width: 100%;
+        padding-left: 15rem;
+        padding-right: 15rem;
+        .title{
+            margin-top: 50px;
+            margin-bottom: 40px;
+            font-size: 32px;
+        }
+        .asked{
+            margin-top: 1rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid rgb(105, 105, 105);
+            cursor: pointer;
+            .question{
+                padding-bottom: 25px;
+                h3{
+                    font-size: 16px;
+                }
+                .Trazado_375 {
+                    overflow: visible;
+                    width: 16px;
+                }
+            }
+            .answer{
+                p{
+                    font-size: 16px;
+                }
+            }
+            
         }
     }
 }

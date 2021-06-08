@@ -51,14 +51,84 @@
   width: 15px;
   -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
           transform: matrix(1, 0, 0, 1, 0, 0);
+  -webkit-transition: -webkit-transform 0.5s ease-in;
+  transition: -webkit-transform 0.5s ease-in;
+  transition: transform 0.5s ease-in;
+  transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
 }
 
 .faq .asked .answer {
   max-height: 0;
   overflow: hidden;
+  -webkit-transition: max-height 1s ease-in;
+  transition: max-height 1s ease-in;
 }
 
 .faq .asked .answer p {
   font-size: 12px;
+}
+
+.faq .asked.active .Trazado_375 {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.faq .asked.active .answer {
+  max-height: 300px;
+}
+
+@media (min-width: 525px) {
+  .faq {
+    width: 100%;
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+  .faq .asked {
+    margin-top: 1rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid dimgray;
+    cursor: pointer;
+  }
+  .faq .asked .question {
+    padding-bottom: 15px;
+  }
+  .faq .asked .question h3 {
+    font-size: 13px;
+  }
+  .faq .asked .answer p {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .faq {
+    width: 100%;
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+  .faq .title {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 32px;
+  }
+  .faq .asked {
+    margin-top: 1rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid dimgray;
+    cursor: pointer;
+  }
+  .faq .asked .question {
+    padding-bottom: 25px;
+  }
+  .faq .asked .question h3 {
+    font-size: 16px;
+  }
+  .faq .asked .question .Trazado_375 {
+    overflow: visible;
+    width: 16px;
+  }
+  .faq .asked .answer p {
+    font-size: 16px;
+  }
 }
 /*# sourceMappingURL=faq.css.map */
