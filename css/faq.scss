@@ -59,6 +59,30 @@
         animation: fade 1s ease-in-out;
     }
     
+    .more{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+        p{
+            text-align: center;
+            font-size: 12px;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
+        .cta {
+            font-weight: 500;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            display: inline-block;
+            padding: 8px 3em;
+            border-radius: 4px;
+            background: $green;
+          
+          }
+    }
 }
 @keyframes fade {
     from{
@@ -74,8 +98,8 @@
 @media (min-width: 525px){
     .faq{
         width: 100%;
-        padding-left: 10rem;
-        padding-right: 10rem;
+        padding-left: 7rem;
+        padding-right: 7rem;
         .asked{
             margin-top: 1rem;
             padding-bottom: 1.5rem;
@@ -92,6 +116,32 @@
                     font-size: 13px;
                 }
             }
+        }
+        .more{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            p{
+                text-align: center;
+                font-size: 13px;
+                padding-top: 3rem;
+                padding-bottom: 2rem;
+            }
+            .cta {
+                font-weight: 500;
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                display: inline-block;
+                padding: 8px 3em;
+                border-radius: 4px;
+                background: $green;
+                font-size: 13px;
+              
+              }
         }
     }
 }
@@ -127,6 +177,33 @@
                 }
             }
             
+        }
+        .more{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 50px;
+            padding-bottom: 20px;
+            p{
+                text-align: center;
+                font-size: 16px;
+                padding-top: 3rem;
+                padding-bottom: 3rem;
+            }
+            .cta {
+                font-weight: 500;
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                display: inline-block;
+                padding: 8px 3em;
+                border-radius: 4px;
+                background: $green;
+                font-size: 16px;
+              
+              }
         }
     }
 }
