@@ -86,7 +86,6 @@
 }
 
 #copyright_constance_2021__term {
-  width: 100%;
   margin-top: 5px;
   white-space: nowrap;
   line-height: 15px;
@@ -94,7 +93,6 @@
   font-family: Metro Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
   color: #ffff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -109,5 +107,7 @@
 
 #copyright_constance_2021__term a {
   color: #ffff;
+  padding-right: 5px;
+  font-size: 14px;
 }
 /*# sourceMappingURL=footer.css.map */
