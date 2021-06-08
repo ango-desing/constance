@@ -3034,4 +3034,68 @@ html {
     font-size: 15px;
   }
 }
+
+/*faq*/
+.faq {
+  width: 100%;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+  padding-bottom: 5rem;
+}
+
+.faq .title {
+  margin-top: 35px;
+  margin-bottom: 25px;
+  font-size: 21px;
+}
+
+.faq .asked {
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid dimgray;
+  cursor: pointer;
+}
+
+.faq .asked .question {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 10px;
+}
+
+.faq .asked .question h3 {
+  font-size: 12px;
+}
+
+.faq .asked .question #Trazado_375 {
+  fill: transparent;
+  stroke: dimgray;
+  stroke-width: 3px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.faq .asked .question .Trazado_375 {
+  overflow: visible;
+  width: 15px;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.faq .asked .answer {
+  max-height: 0;
+  overflow: hidden;
+}
+
+.faq .asked .answer p {
+  font-size: 12px;
+}
 /*# sourceMappingURL=estilo.css.map */
