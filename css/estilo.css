@@ -495,7 +495,6 @@ html {
   top: 34%;
   left: 40px;
   right: 40px;
-  font-size: 14px;
   color: #ffff;
 }
 
@@ -588,6 +587,15 @@ html {
   font-weight: 700;
   line-height: 1.6;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   text-transform: uppercase;
 }
 
@@ -771,6 +779,14 @@ html {
   .Grupo_4 {
     height: 290px;
   }
+  .Grupo_4 .product_2 h3 {
+    font-size: 16px;
+    padding-bottom: 10px;
+  }
+  .Grupo_4 .product_2 p {
+    font-size: 14px;
+    padding-bottom: 15px;
+  }
   .Grupo_4 #asdsa {
     display: block;
   }
@@ -852,24 +868,20 @@ html {
     top: 0;
     right: 0;
   }
-  .Grupo_4 .product_1 {
-    position: absolute;
-    right: 0;
-    width: 550px;
-    top: 35%;
-    font-size: 18px;
-    color: #ffff;
-  }
-  .Grupo_4 .product_1 p {
-    text-align: right;
-  }
   .Grupo_4 .product_2 {
     position: absolute;
-    top: 48%;
-    left: 460px;
+    top: 34%;
+    left: 40px;
     right: 40px;
-    font-size: 14px;
     color: #ffff;
+  }
+  .Grupo_4 .product_2 h3 {
+    font-size: 16px;
+    padding-bottom: 10px;
+  }
+  .Grupo_4 .product_2 p {
+    font-size: 14px;
+    padding-bottom: 15px;
   }
   .Grupo_4 #asdsa {
     display: block;
