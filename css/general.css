@@ -199,21 +199,23 @@ html {
   width: 100%;
 }
 
-.Grupo_4 .product_1 {
-  position: absolute;
-  top: 35%;
-  left: 40px;
-  font-size: 18px;
-  color: #ffff;
-}
-
 .Grupo_4 .product_2 {
   position: absolute;
-  top: 48%;
+  top: 34%;
   left: 40px;
   right: 40px;
   font-size: 14px;
   color: #ffff;
+}
+
+.Grupo_4 .product_2 h3 {
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.Grupo_4 .product_2 p {
+  font-size: 12px;
+  padding-bottom: 15px;
 }
 
 .Grupo_4 button {
@@ -226,7 +228,7 @@ html {
   text-decoration: none;
   background: transparent;
   padding: 0;
-  top: 16px;
+  top: -16px;
   font-size: inherit;
   font-family: inherit;
   text-align: right;
@@ -689,7 +691,7 @@ html {
   }
   .Grupo_4 .product_2 {
     position: absolute;
-    top: 45%;
+    top: 40%;
     left: 821px;
     right: 80px;
     font-size: 14px;
