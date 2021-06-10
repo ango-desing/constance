@@ -19,13 +19,13 @@
   }
   function ShopifyBuyInit() {
     var client = ShopifyBuy.buildClient({
-      domain: 'contance.myshopify.com',
-      storefrontAccessToken: '8977acf40a4b1e31fde8fc9017bf387d',
+      domain: 'pruebaconstanceweb.myshopify.com',
+      storefrontAccessToken: '97aebc57c36dcf4fe826046293bf511a',
     });
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: '6810538115237',
-        node: document.getElementById('product-component-1623274199115'),
+        id: '6694274105530',
+        node: document.getElementById('product-component-1623365136305'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
@@ -41,17 +41,6 @@
       "title": {
         "font-size": "26px"
       },
-      "button": {
-        ":hover": {
-          "background-color": "#000000"
-        },
-        "background-color": "#000000",
-        ":focus": {
-          "background-color": "#000000"
-        },
-        "padding-left": "30px",
-        "padding-right": "30px"
-      },
       "price": {
         "font-size": "18px"
       },
@@ -66,8 +55,6 @@
     "contents": {
       "img": false,
       "imgWithCarousel": true,
-      "button": false,
-      "buttonWithQuantity": true,
       "description": true
     },
     "width": "100%",
@@ -98,17 +85,6 @@
           "margin-left": "0px",
           "margin-bottom": "0px"
         }
-      },
-      "button": {
-        ":hover": {
-          "background-color": "#000000"
-        },
-        "background-color": "#000000",
-        ":focus": {
-          "background-color": "#000000"
-        },
-        "padding-left": "30px",
-        "padding-right": "30px"
       },
       "title": {
         "font-family": "Helvetica Neue, sans-serif",
@@ -142,31 +118,92 @@
   "option": {},
   "cart": {
     "styles": {
-      "button": {
+      "title": {
+        "color": "#000000"
+      },
+      "header": {
+        "color": "#000000"
+      },
+      "lineItems": {
+        "color": "#000000"
+      },
+      "subtotalText": {
+        "color": "#000000"
+      },
+      "subtotal": {
+        "color": "#000000"
+      },
+      "notice": {
+        "color": "#000000"
+      },
+      "currency": {
+        "color": "#000000"
+      },
+      "close": {
+        "color": "#000000",
         ":hover": {
-          "background-color": "#000000"
-        },
-        "background-color": "#000000",
-        ":focus": {
-          "background-color": "#000000"
+          "color": "#000000"
         }
+      },
+      "empty": {
+        "color": "#000000"
+      },
+      "noteDescription": {
+        "color": "#000000"
+      },
+      "discountText": {
+        "color": "#000000"
+      },
+      "discountIcon": {
+        "fill": "#000000"
+      },
+      "discountAmount": {
+        "color": "#000000"
       }
     },
     "text": {
       "total": "Subtotal",
       "button": "Checkout"
+    },
+    "contents": {
+      "note": true
     }
   },
-  "toggle": {
+  "toggle": {},
+  "lineItem": {
     "styles": {
-      "toggle": {
-        "background-color": "#000000",
-        ":hover": {
-          "background-color": "#000000"
-        },
-        ":focus": {
-          "background-color": "#000000"
-        }
+      "variantTitle": {
+        "color": "#000000"
+      },
+      "title": {
+        "color": "#000000"
+      },
+      "price": {
+        "color": "#000000"
+      },
+      "fullPrice": {
+        "color": "#000000"
+      },
+      "discount": {
+        "color": "#000000"
+      },
+      "discountIcon": {
+        "fill": "#000000"
+      },
+      "quantity": {
+        "color": "#000000"
+      },
+      "quantityIncrement": {
+        "color": "#000000",
+        "border-color": "#000000"
+      },
+      "quantityDecrement": {
+        "color": "#000000",
+        "border-color": "#000000"
+      },
+      "quantityInput": {
+        "color": "#000000",
+        "border-color": "#000000"
       }
     }
   }
