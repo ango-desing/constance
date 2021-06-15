@@ -20,7 +20,7 @@ nav{
     left: 0;
     box-sizing: border-box;
     width: 100%;
-    background: $blanco;
+    background: #ffff;
    }
 
 #menuToggle
@@ -35,13 +35,13 @@ nav{
 #menuToggle a
 {
   text-decoration: none;
-  color: $blanco;
+  color: #ffff;
   transition: color 0.3s ease;
 }
 
 #menuToggle a:hover
 {
-  color: $gris;
+color:  #dfdfdf;
 }
 #menuToggle input
 {
@@ -61,7 +61,7 @@ nav{
   height: 2px;
   margin-bottom: 5px;
   position: relative;
-  background: $negro;
+  background: #000000;
   border-radius: 2px;
   z-index: 1;
   transform-origin: 4px 0px; 
@@ -83,7 +83,7 @@ nav{
 {
   opacity: 1;
   transform: rotate(38deg) translate(-2px, -1px);
-  background: $blanco;
+  background: #ffff;
 }
 #menuToggle input:checked ~ span:nth-last-child(3)
 {
@@ -107,7 +107,7 @@ nav{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: $green;
+  background: #686230;
   overflow: auto;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
@@ -123,7 +123,7 @@ nav{
 
   a{
     display: block;
-    color: $blanco;
+    color: #ffff;
   }
 }
 #menuToggle input:checked ~ ul
@@ -154,7 +154,7 @@ nav{
     margin-bottom: 9px;
 }
 i{
-  color: $softblack;
+  color: #4D4D4D;
   font-size: 23px;
   cursor: pointer;
 }
