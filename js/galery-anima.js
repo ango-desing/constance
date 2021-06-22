@@ -144,7 +144,7 @@
         ":focus": {
           "background-color": "#292929"
         }
-      },
+      }, 
       "title": {
         "color": "#000000"
       },
