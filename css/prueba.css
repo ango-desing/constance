@@ -22,4 +22,10 @@
   width: 400px;
   border-radius: 10px;
 }
+
+.site-footer {
+  visibility: hidden;
+  overflow: hidden;
+  max-height: 0;
+}
 /*# sourceMappingURL=prueba.css.map */

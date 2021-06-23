@@ -190,7 +190,7 @@
   margin-bottom: 9px;
 }
 
-.white-menu i {
+.white-menu a i {
   color: #4D4D4D;
   font-size: 23px;
   cursor: pointer;
@@ -244,8 +244,8 @@
     height: 20px;
     margin-top: 8px;
   }
-  .white-menu i {
-    font-size: 20px;
+  .white-menu a i {
+    font-size: 21px;
   }
 }
 
