@@ -212,7 +212,7 @@ nav {
 
 a i {
   color: #ffff;
-  font-size: 23px;
+  font-size: 25px;
   cursor: pointer;
 }
 
@@ -1158,6 +1158,7 @@ html {
   text-align: center;
   font-size: 16px;
   margin-right: 5px;
+  color: #ffff;
 }
 
 #Grupo_7 .bxl-instagram {
@@ -2966,7 +2967,7 @@ html {
 
 .white-menu a i {
   color: #4D4D4D;
-  font-size: 23px;
+  font-size: 25px;
   cursor: pointer;
 }
 
