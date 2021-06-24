@@ -1,5 +1,5 @@
 /* footer*/
-#Grupo_5 {
+footer #Grupo_5 {
   position: absolute;
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -19,7 +19,7 @@
   background: #686230;
 }
 
-#Grupo_6 {
+footer #Grupo_6 {
   width: 100%;
   display: -ms-grid;
   display: grid;
@@ -31,7 +31,7 @@
           align-items: center;
 }
 
-#Grupo_6 span {
+footer #Grupo_6 span {
   margin-top: 5px;
   white-space: nowrap;
   line-height: 15px;
@@ -43,7 +43,7 @@
   color: #ffff;
 }
 
-.footer-constance {
+footer .footer-constance {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -56,12 +56,12 @@
   width: 100%;
 }
 
-.footer-constance img {
+footer .footer-constance img {
   height: 15px;
   margin-top: 5px;
 }
 
-#Grupo_7 {
+footer #Grupo_7 {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -74,19 +74,19 @@
           justify-content: center;
 }
 
-#Grupo_7 i {
+footer #Grupo_7 i {
   margin-top: 10px;
   text-align: center;
   font-size: 16px;
   margin-right: 5px;
-  color: #ffff;
+  color: white;
 }
 
-#Grupo_7 .bxl-instagram {
+footer #Grupo_7 .bxl-instagram {
   padding-right: 3px;
 }
 
-#copyright_constance_2021__term {
+footer #copyright_constance_2021__term {
   margin-top: 5px;
   white-space: nowrap;
   line-height: 15px;
@@ -94,7 +94,7 @@
   font-family: Metro Sans;
   font-style: normal;
   font-weight: normal;
-  color: #ffff;
+  color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -106,8 +106,8 @@
           align-items: center;
 }
 
-#copyright_constance_2021__term a {
-  color: #ffff;
+footer #copyright_constance_2021__term a {
+  color: #ffffff;
   padding-right: 5px;
   font-size: 14px;
 }

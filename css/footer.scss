@@ -1,6 +1,6 @@
 @import 'variables';
 /* footer*/
-
+footer{
 #Grupo_5 {
     position: absolute;
     padding-left: 2.5rem;
@@ -12,7 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: $green;
+    background: #686230;
   }
   
   #Grupo_6 {
@@ -52,7 +52,7 @@
         text-align: center;
         font-size: 16px;
         margin-right: 5px;
-        color: #ffff;
+        color: rgb(255, 255, 255);
     }
     .bxl-instagram{
         padding-right: 3px;
@@ -66,14 +66,15 @@
       font-family: Metro Sans;
       font-style: normal;
       font-weight: normal;
-      color: $blanco;
+      color: #ffffff;
       display: flex;
       justify-content: center;
       align-items: center;
   a{
-    color: $blanco;
+    color: #ffffff;
     padding-right: 5px;
     font-size: 14px;
  
   }
   }
+}
