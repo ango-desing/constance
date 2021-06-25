@@ -1,3 +1,4 @@
+@import url("//hello.myfonts.net/count/3eb5d8");
 * {
   margin: 0;
   padding: 0;
@@ -12,11 +13,9 @@
           box-sizing: border-box;
 }
 
-.fonts {
+@font-face {
   font-family: "Savinder-Regular";
-  font-family: 'MetroSans-Regular', Helvetica, Arial, Sans-Serif;
-  font-family: 'MetroSans-Book', Helvetica, Arial, Sans-Serif;
-  font-family: 'MetroSans-Light', Helvetica, Arial, Sans-Serif;
+  src: url("webFonts/SavinderRegular/font.woff2") format("woff2"), url("webFonts/SavinderRegular/font.woff") format("woff");
 }
 
 body {

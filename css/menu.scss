@@ -9,11 +9,11 @@
 *,::before,::after{
   box-sizing: border-box;
 }
-.fonts {
-	font-family: "Savinder-Regular";
-  font-family: 'MetroSans-Regular', Helvetica, Arial, Sans-Serif;
-  font-family: 'MetroSans-Book', Helvetica, Arial, Sans-Serif;
-  font-family: 'MetroSans-Light', Helvetica, Arial, Sans-Serif;
+@import url("//hello.myfonts.net/count/3eb5d8");
+  
+@font-face {
+  font-family: "Savinder-Regular";
+  src: url('webFonts/SavinderRegular/font.woff2') format('woff2'), url('webFonts/SavinderRegular/font.woff') format('woff');
 }
 body
 {
