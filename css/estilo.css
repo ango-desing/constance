@@ -1,4 +1,9 @@
 @import url("//hello.myfonts.net/count/3eb5d8");
+@font-face {
+  font-family: "Savinder-Regular";
+  src: url("webFonts/SavinderRegular/font.woff2") format("woff2"), url("webFonts/SavinderRegular/font.woff") format("woff");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11,11 +16,6 @@
 *, ::before, ::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-}
-
-@font-face {
-  font-family: "Savinder-Regular";
-  src: url("webFonts/SavinderRegular/font.woff2") format("woff2"), url("webFonts/SavinderRegular/font.woff") format("woff");
 }
 
 body {
@@ -429,7 +429,6 @@ html {
   font-size: 18px;
   padding: 3px 0;
   color: #ffff;
-  font-family: "Savinder-Regular";
 }
 
 /* div box */
@@ -707,7 +706,6 @@ html {
   color: #000000;
   text-align: center;
   font-size: 7vw;
-  font-family: "Savinder-Regular";
 }
 
 .button {
@@ -830,7 +828,6 @@ html {
     font-size: 21px;
     color: #ffff;
     padding: 3px 0;
-    font-family: "Savinder-Regular";
   }
   #box {
     display: -ms-grid;

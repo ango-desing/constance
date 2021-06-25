@@ -1,4 +1,10 @@
 @import 'variables';
+@import url("//hello.myfonts.net/count/3eb5d8");
+
+@font-face {
+  font-family: "Savinder-Regular";
+  src: url('webFonts/SavinderRegular/font.woff2') format('woff2'), url('webFonts/SavinderRegular/font.woff') format('woff');
+}
 *{
     margin: 0;
     padding: 0;
@@ -8,12 +14,6 @@
 }
 *,::before,::after{
   box-sizing: border-box;
-}
-@import url("//hello.myfonts.net/count/3eb5d8");
-  
-@font-face {
-  font-family: "Savinder-Regular";
-  src: url('webFonts/SavinderRegular/font.woff2') format('woff2'), url('webFonts/SavinderRegular/font.woff') format('woff');
 }
 body
 {
