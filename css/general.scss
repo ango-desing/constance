@@ -320,7 +320,7 @@ button {
     color: $negro;
     text-align: center;
     font-size: 7vw;
-    font-family: "Savinder-Regular";
+    font-family: "Savinder-Regular";  
   }
 }
 .button {
@@ -443,6 +443,7 @@ display: none;
         font-size: 21px;
         color: $blanco;
         padding: 3px 0;
+        font-family: "Savinder-Regular";
       }
     }
     #box{
@@ -554,6 +555,12 @@ display: none;
     .banner{
       width: 100%;
       height: 200px;
+      p{
+        font-size: 21px;
+        color: $blanco;
+        padding: 3px 0;
+        font-family: "Savinder-Regular";
+      }
     }
     .rectangulo{
       width: 100%;
