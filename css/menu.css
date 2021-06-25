@@ -70,6 +70,7 @@ nav {
 #menuToggle a {
   text-decoration: none;
   color: #ffff;
+  font-family: 'MetroSans-Book', Helvetica, Arial, Sans-Serif;
   -webkit-transition: color 0.3s ease;
   transition: color 0.3s ease;
 }
@@ -171,7 +172,8 @@ nav {
 #menu li {
   display: block;
   padding: 9px 0;
-  font-size: 21px;
+  font-size: 18px;
+  font-family: 'MetroSans-Light', Helvetica, Arial, Sans-Serif;
 }
 
 #menu li a {

@@ -70,6 +70,7 @@ nav {
 #menuToggle a {
   text-decoration: none;
   color: #ffff;
+  font-family: 'MetroSans-Book', Helvetica, Arial, Sans-Serif;
   -webkit-transition: color 0.3s ease;
   transition: color 0.3s ease;
 }
@@ -171,7 +172,8 @@ nav {
 #menu li {
   display: block;
   padding: 9px 0;
-  font-size: 21px;
+  font-size: 18px;
+  font-family: 'MetroSans-Light', Helvetica, Arial, Sans-Serif;
 }
 
 #menu li a {
@@ -406,7 +408,7 @@ html {
 /* banner*/
 .banner {
   width: 100%;
-  height: 116px;
+  height: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -427,7 +429,7 @@ html {
 .banner p {
   font-size: 21px;
   color: #ffff;
-  font-family: 'MetroSans-Regular', Helvetica, Arial, Sans-Serif;
+  font-family: "Savinder-Regular";
 }
 
 /* div box */
@@ -704,7 +706,8 @@ html {
 .caption a {
   color: #000000;
   text-align: center;
-  font-size: 12vw;
+  font-size: 7vw;
+  font-family: "Savinder-Regular";
 }
 
 .button {
@@ -821,7 +824,7 @@ html {
   }
   .banner {
     width: 100%;
-    height: 150px;
+    height: 190px;
   }
   #box {
     display: -ms-grid;
@@ -927,7 +930,7 @@ html {
   .caption a {
     color: #000000;
     text-align: center;
-    font-size: 7vw;
+    font-size: 5vw;
   }
 }
 
@@ -1072,7 +1075,7 @@ html {
   .caption a {
     color: #000000;
     text-align: center;
-    font-size: 7vw;
+    font-size: 4.5vw;
   }
   .button-btn {
     left: 100px;

@@ -57,6 +57,7 @@ nav{
 {
   text-decoration: none;
   color: $blanco;
+  font-family: 'MetroSans-Book', Helvetica, Arial, Sans-Serif;
   transition: color 0.3s ease;
 }
 
@@ -140,7 +141,8 @@ nav{
 {
   display: block;
   padding: 9px 0;
-  font-size: 21px;
+  font-size: 18px;
+  font-family: 'MetroSans-Light', Helvetica, Arial, Sans-Serif;
 
   a{
     display: block;
