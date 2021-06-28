@@ -272,8 +272,23 @@
         height: 900px;
         .box1{
             height: 47%;
+            h1{
+                font-size: 19px;
+                padding-left: 33%;
+                padding-bottom: 2rem;
+                z-index: 1;
+                font-family: "Savinder-Regular";
+            }
         }
         .box2{
+            .h1{
+                width: 100%;
+                padding-left: 1rem;
+                position: absolute;
+                h1{
+                    font-size: 19px;
+                }   
+            }
             .texto{
                 p{
                     padding-right: 40%;

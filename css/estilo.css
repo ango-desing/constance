@@ -1770,6 +1770,21 @@ footer #copyright_constance_2021__term a {
   .about .box1 {
     height: 47%;
   }
+  .about .box1 h1 {
+    font-size: 19px;
+    padding-left: 33%;
+    padding-bottom: 2rem;
+    z-index: 1;
+    font-family: "Savinder-Regular";
+  }
+  .about .box2 .h1 {
+    width: 100%;
+    padding-left: 1rem;
+    position: absolute;
+  }
+  .about .box2 .h1 h1 {
+    font-size: 19px;
+  }
   .about .box2 .texto p {
     padding-right: 40%;
   }
