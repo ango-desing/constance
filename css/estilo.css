@@ -2,6 +2,9 @@
 @font-face {
   font-family: "Savinder-Regular";
   src: url("../fonts/SavinderRegular/font.woff2") format("woff2"), url("../fonts/SavinderRegular/font.woff") format("woff");
+  font-family: 'MetroSans-Regular', Helvetica, Arial, Sans-Serif;
+  font-family: 'MetroSans-Light', Helvetica, Arial, Sans-Serif;
+  font-family: 'MetroSans-Book', Helvetica, Arial, Sans-Serif;
 }
 
 * {
