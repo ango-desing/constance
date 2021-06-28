@@ -2612,7 +2612,6 @@ footer #copyright_constance_2021__term a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 50%;
 }
 
 .email-contact .link p {
@@ -2958,7 +2957,7 @@ footer #copyright_constance_2021__term a {
     font-size: 16px;
   }
   .email-contact {
-    height: 390px;
+    height: 400px;
   }
   .email-contact img {
     height: 350px;
