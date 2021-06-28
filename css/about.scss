@@ -111,11 +111,13 @@
             font-size: 12px;
             color: $brown;
             padding-bottom: 20px;
+            font-family: 'MetroSans-Regular', Helvetica, Arial, Sans-Serif;
         }
         .t1{
             font-size: 14px;
             font-weight: bold;
             padding-bottom: 30px;
+            font-family: 'MetroSans-Book', Helvetica, Arial, Sans-Serif;
         }
     }
     .left-sidebar {
@@ -136,6 +138,7 @@
             font-size: 12px;
             color: $brown;
             padding-bottom: 55px;
+            font-family: 'MetroSans-Regular', Helvetica, Arial, Sans-Serif;
         }
         }
     }
@@ -145,8 +148,9 @@
         display: flex;
         justify-content: center;
         h1{
-            font-size: 29px;
+            font-size: 17px;
             color: $brown;
+            font-family: "Savinder-Regular";
         }
     }
 }
@@ -186,13 +190,14 @@
             padding-left: 42%;
             text-align: left;
             font-size: 12px;
+            font-family: 'MetroSans-Book', Helvetica, Arial, Sans-Serif;
         }
         h1{
-            font-size: 25px;
+            font-size: 21px;
             padding-left: 18%;
             padding-bottom: 2rem;
             z-index: 1;
-
+            font-family: "Savinder-Regular";
         }
     }
     .box2{
@@ -221,14 +226,15 @@
        
         .h1{
             width: 100%;
-            padding-left: 3rem;
+            padding-left: 1rem;
             position: absolute;
             h1{
-                font-size: 25px;
+                font-size: 21px;
                 padding-bottom: 40px;
                 padding-top: 3.5rem;
                 padding-right: 4rem;
                 z-index: 1;
+                font-family: "Savinder-Regular";
             }   
         }
          .texto{
@@ -239,6 +245,7 @@
                 font-size: 12px;
                 padding-top: 8rem;
                 z-index: -1;
+                font-family: 'MetroSans-Book', Helvetica, Arial, Sans-Serif;
             }
             .p{
                 padding-top: 1rem;
@@ -256,7 +263,7 @@
         }
         .center-text{
             h1{
-                font-size: 25px;
+                font-size: 15px;
                 color: $brown;
             }
         }
@@ -446,8 +453,9 @@
             width: 100%;
             display: flex;
             justify-content: center;
+            padding-bottom: 75px;
             h1{
-                font-size: 35px;
+                font-size: 25px;
                 color: $brown;
             }
         }
@@ -629,9 +637,9 @@
         width: 100%;
         display: flex;
         justify-content: center;
-        padding-top: 15px;
+        padding-bottom: 75px;
         h1{
-            font-size: 40px;
+            font-size: 30px;
             color: $brown;
         }
     }
@@ -677,9 +685,9 @@
             position: absolute;
         }
         h1{
-            font-size: 80px;
+            font-size: 70px;
             padding-bottom: 190px;
-            padding-right: 12rem;
+            padding-right: 14rem;
             z-index: 1;
             position: absolute;
 
@@ -714,7 +722,7 @@
             width: 80%;
             position: absolute;
             h1{
-                font-size: 80px;
+                font-size: 70px;
                 padding-bottom: 80px;
                 padding-top: 6rem;
                 padding-right: 4rem;
@@ -725,7 +733,6 @@
            
             padding-left: 0;
             position: absolute;
-            width: 65%;
             p{
                 padding-right: 47%;
                 text-align: justify;
