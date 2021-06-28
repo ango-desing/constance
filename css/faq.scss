@@ -10,7 +10,8 @@
     .title{
         margin-top: 35px;
         margin-bottom: 25px;
-        font-size: 21px;
+        font-size: 18px;
+        font-family: "Savinder-Regular";
     }
     .asked{
         margin-top: 1rem;
@@ -24,6 +25,7 @@
             padding-bottom: 10px;
             h3{
                 font-size: 12px;
+                font-family: 'MetroSans-Regular', Helvetica, Arial, Sans-Serif;
             }
             #Trazado_375 {
                 fill: transparent;
@@ -47,6 +49,8 @@
             transition: max-height 1s ease-in;
             p{
                 font-size: 12px;
+                font-family: 'MetroSans-Book', Helvetica, Arial, Sans-Serif;
+                line-height: 1.2;
             }
         }
         
@@ -71,16 +75,17 @@
             font-size: 12px;
             padding-top: 2rem;
             padding-bottom: 2rem;
+            font-family: 'MetroSans-Book', Helvetica, Arial, Sans-Serif;
         }
         .cta {
             font-weight: 500;
             text-decoration: none;
             color: rgb(255, 255, 255);
             display: inline-block;
-            padding: 8px 3em;
+            padding: 12px 3em;
             border-radius: 4px;
             background: $green;
-          
+            font-family: 'MetroSans-Light', Helvetica, Arial, Sans-Serif;      
           }
     }
 }
@@ -114,6 +119,7 @@
             .answer{
                 p{
                     font-size: 13px;
+                    line-height: 1.3;
                 }
             }
         }
@@ -174,6 +180,7 @@
             .answer{
                 p{
                     font-size: 16px;
+                    line-height: 1.3;
                 }
             }
             

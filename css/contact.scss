@@ -52,10 +52,12 @@
             }
             .bold{
                 font-weight: bold;
+                font-family: 'MetroSans-Book', Helvetica, Arial, Sans-Serif;
             }
             p{
                 padding-bottom: 8px;
                 font-size: 12px;
+                font-family: 'MetroSans-Light', Helvetica, Arial, Sans-Serif;
             }
         }
         .div2 { 
@@ -74,10 +76,12 @@
             }
             .bold{
                 font-weight: bold;
+                font-family: 'MetroSans-Book', Helvetica, Arial, Sans-Serif;
             }
             p{
                 padding-bottom: 8px;
                 font-size: 12px;
+                font-family: 'MetroSans-Light', Helvetica, Arial, Sans-Serif;
             }
          }
         .div3 { 
@@ -96,6 +100,7 @@
             }
             .bold{
                 font-weight: bold;
+                font-family: 'MetroSans-Book', Helvetica, Arial, Sans-Serif;
             }
             p{
                 padding-bottom: 8px;
@@ -109,6 +114,7 @@
                     text-decoration: none;
                     color: $green;
                     font-size: 12px;
+                    font-family: 'MetroSans-Light', Helvetica, Arial, Sans-Serif;
                 }
             }
         }
@@ -138,6 +144,7 @@
             width: 90%;
             margin-bottom: 30px;
             font-size: 12px;
+            font-family: 'MetroSans-Light', Helvetica, Arial, Sans-Serif;
         }
     }
     .gmail{
@@ -165,6 +172,7 @@
             margin-left: 6px;
             margin-right: 10px;
             font-size: 13px;
+            font-family: 'MetroSans-Book', Helvetica, Arial, Sans-Serif;
         }
     }
 }

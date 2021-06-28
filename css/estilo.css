@@ -1563,7 +1563,7 @@ footer #copyright_constance_2021__term a {
   font-size: 12px;
   color: #8D4C2E;
   padding-bottom: 20px;
-  font-family: 'MetroSans-Regular', Helvetica, Arial, Sans-Serif;
+  font-family: 'MetroSans-Light', Helvetica, Arial, Sans-Serif;
 }
 
 .info-product .side-box .right-sidebar .t1 {
@@ -1603,7 +1603,7 @@ footer #copyright_constance_2021__term a {
   font-size: 12px;
   color: #8D4C2E;
   padding-bottom: 55px;
-  font-family: 'MetroSans-Regular', Helvetica, Arial, Sans-Serif;
+  font-family: 'MetroSans-Light', Helvetica, Arial, Sans-Serif;
 }
 
 .info-product .center-text {
@@ -1675,6 +1675,7 @@ footer #copyright_constance_2021__term a {
   text-align: left;
   font-size: 12px;
   font-family: 'MetroSans-Book', Helvetica, Arial, Sans-Serif;
+  line-height: 1.2;
 }
 
 .about .box1 h1 {
@@ -1748,6 +1749,7 @@ footer #copyright_constance_2021__term a {
   padding-top: 8rem;
   z-index: -1;
   font-family: 'MetroSans-Book', Helvetica, Arial, Sans-Serif;
+  line-height: 1.2;
 }
 
 .about .box2 .texto .p {
@@ -2057,6 +2059,7 @@ footer #copyright_constance_2021__term a {
     padding-right: 6rem;
     text-align: justify;
     font-size: 14px;
+    line-height: 1.3;
   }
   .about .box1 h1 {
     font-size: 50px;
@@ -2124,6 +2127,7 @@ footer #copyright_constance_2021__term a {
     text-align: justify;
     font-size: 16px;
     padding-top: 10rem;
+    line-height: 1.3;
   }
   .about .box2 .texto .p {
     padding-top: 1rem;
@@ -2295,6 +2299,7 @@ footer #copyright_constance_2021__term a {
     text-align: justify;
     font-size: 16px;
     position: absolute;
+    line-height: 1.3;
   }
   .about .box1 h1 {
     font-size: 70px;
@@ -2362,6 +2367,7 @@ footer #copyright_constance_2021__term a {
     text-align: justify;
     font-size: 16px;
     padding-top: 18rem;
+    line-height: 1.3;
   }
   .about .box2 .texto .p {
     padding-top: 1rem;
@@ -2465,11 +2471,13 @@ footer #copyright_constance_2021__term a {
 
 .honolulu .div1 .bold {
   font-weight: bold;
+  font-family: 'MetroSans-Book', Helvetica, Arial, Sans-Serif;
 }
 
 .honolulu .div1 p {
   padding-bottom: 8px;
   font-size: 12px;
+  font-family: 'MetroSans-Light', Helvetica, Arial, Sans-Serif;
 }
 
 .honolulu .div2 {
@@ -2503,11 +2511,13 @@ footer #copyright_constance_2021__term a {
 
 .honolulu .div2 .bold {
   font-weight: bold;
+  font-family: 'MetroSans-Book', Helvetica, Arial, Sans-Serif;
 }
 
 .honolulu .div2 p {
   padding-bottom: 8px;
   font-size: 12px;
+  font-family: 'MetroSans-Light', Helvetica, Arial, Sans-Serif;
 }
 
 .honolulu .div3 {
@@ -2541,6 +2551,7 @@ footer #copyright_constance_2021__term a {
 
 .honolulu .div3 .bold {
   font-weight: bold;
+  font-family: 'MetroSans-Book', Helvetica, Arial, Sans-Serif;
 }
 
 .honolulu .div3 p {
@@ -2563,6 +2574,7 @@ footer #copyright_constance_2021__term a {
   text-decoration: none;
   color: #686230;
   font-size: 12px;
+  font-family: 'MetroSans-Light', Helvetica, Arial, Sans-Serif;
 }
 
 .email-contact {
@@ -2618,6 +2630,7 @@ footer #copyright_constance_2021__term a {
   width: 90%;
   margin-bottom: 30px;
   font-size: 12px;
+  font-family: 'MetroSans-Light', Helvetica, Arial, Sans-Serif;
 }
 
 .email-contact .gmail {
@@ -2651,6 +2664,7 @@ footer #copyright_constance_2021__term a {
   margin-left: 6px;
   margin-right: 10px;
   font-size: 13px;
+  font-family: 'MetroSans-Book', Helvetica, Arial, Sans-Serif;
 }
 
 /* medias */
@@ -3270,7 +3284,8 @@ footer #copyright_constance_2021__term a {
 .faq .title {
   margin-top: 35px;
   margin-bottom: 25px;
-  font-size: 21px;
+  font-size: 18px;
+  font-family: "Savinder-Regular";
 }
 
 .faq .asked {
@@ -3295,6 +3310,7 @@ footer #copyright_constance_2021__term a {
 
 .faq .asked .question h3 {
   font-size: 12px;
+  font-family: 'MetroSans-Regular', Helvetica, Arial, Sans-Serif;
 }
 
 .faq .asked .question #Trazado_375 {
@@ -3327,6 +3343,8 @@ footer #copyright_constance_2021__term a {
 
 .faq .asked .answer p {
   font-size: 12px;
+  font-family: 'MetroSans-Book', Helvetica, Arial, Sans-Serif;
+  line-height: 1.2;
 }
 
 .faq .asked.active .Trazado_375 {
@@ -3363,6 +3381,7 @@ footer #copyright_constance_2021__term a {
   font-size: 12px;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  font-family: 'MetroSans-Book', Helvetica, Arial, Sans-Serif;
 }
 
 .faq .more .cta {
@@ -3370,9 +3389,10 @@ footer #copyright_constance_2021__term a {
   text-decoration: none;
   color: white;
   display: inline-block;
-  padding: 8px 3em;
+  padding: 12px 3em;
   border-radius: 4px;
   background: #686230;
+  font-family: 'MetroSans-Light', Helvetica, Arial, Sans-Serif;
 }
 
 @-webkit-keyframes fade {
@@ -3421,6 +3441,7 @@ footer #copyright_constance_2021__term a {
   }
   .faq .asked .answer p {
     font-size: 13px;
+    line-height: 1.3;
   }
   .faq .more {
     display: -webkit-box;
@@ -3487,6 +3508,7 @@ footer #copyright_constance_2021__term a {
   }
   .faq .asked .answer p {
     font-size: 16px;
+    line-height: 1.3;
   }
   .faq .more {
     display: -webkit-box;

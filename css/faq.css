@@ -9,7 +9,8 @@
 .faq .title {
   margin-top: 35px;
   margin-bottom: 25px;
-  font-size: 21px;
+  font-size: 18px;
+  font-family: "Savinder-Regular";
 }
 
 .faq .asked {
@@ -34,6 +35,7 @@
 
 .faq .asked .question h3 {
   font-size: 12px;
+  font-family: 'MetroSans-Regular', Helvetica, Arial, Sans-Serif;
 }
 
 .faq .asked .question #Trazado_375 {
@@ -66,6 +68,8 @@
 
 .faq .asked .answer p {
   font-size: 12px;
+  font-family: 'MetroSans-Book', Helvetica, Arial, Sans-Serif;
+  line-height: 1.2;
 }
 
 .faq .asked.active .Trazado_375 {
@@ -102,6 +106,7 @@
   font-size: 12px;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  font-family: 'MetroSans-Book', Helvetica, Arial, Sans-Serif;
 }
 
 .faq .more .cta {
@@ -109,9 +114,10 @@
   text-decoration: none;
   color: white;
   display: inline-block;
-  padding: 8px 3em;
+  padding: 12px 3em;
   border-radius: 4px;
   background: #686230;
+  font-family: 'MetroSans-Light', Helvetica, Arial, Sans-Serif;
 }
 
 @-webkit-keyframes fade {
@@ -160,6 +166,7 @@
   }
   .faq .asked .answer p {
     font-size: 13px;
+    line-height: 1.3;
   }
   .faq .more {
     display: -webkit-box;
@@ -226,6 +233,7 @@
   }
   .faq .asked .answer p {
     font-size: 16px;
+    line-height: 1.3;
   }
   .faq .more {
     display: -webkit-box;
