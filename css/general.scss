@@ -268,9 +268,7 @@ button {
   }
 }
 #asdsa{
-  width: 100%;
   height: 290px;
-  object-fit: cover;
   display: none;
 }
 .asf{
@@ -593,10 +591,11 @@ display: none;
       }
     }
   .Grupo_4{
-    height: 330px;
+    height: 450px;
     width: 100%;
     top: 0;
     right: 0;
+    background-color: #e6ab68;
   .product_1{
     position: absolute;
     right: 0;
@@ -619,10 +618,19 @@ display: none;
     align-items: flex-end;
     justify-content: right;
   }
-  #asdsa{
-    display: block;
-      height: 330px;
+  .asdsa{
+    position: relative;
+    width: 100%;
+   height: 450px;
+    display: flex;
+    align-items: center;
+    #asdsa{
+      position: absolute;
+      left: 20vh;
+      height: 60vh;
     }
+  }
+
   .asf{
   display: none;
   }
