@@ -734,7 +734,6 @@ html {
             justify-content: right;
   }
   .Grupo_4 .asdsa {
-    position: relative;
     width: 100%;
     height: 450px;
     display: -webkit-box;
@@ -903,6 +902,7 @@ html {
     -webkit-box-pack: right;
         -ms-flex-pack: right;
             justify-content: right;
+    z-index: 2;
   }
   .Grupo_4 #asdsa {
     display: block;
