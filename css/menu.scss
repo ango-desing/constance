@@ -45,6 +45,26 @@ nav{
     box-sizing: border-box;
     width: 100%;
     background: $lemon;
+
+    &.inverted {
+      background-color: #fff;
+      box-shadow: 0 3px 5px 0.3px rgba(0,0,0,0.1);
+
+      #menuToggle span
+    {
+      background: #4D4D4D;
+      transform-origin: 4px 0px; 
+      transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                  background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                  opacity 0.55s ease;
+    }
+    a i{
+      color: #4D4D4D;
+      font-size: 25px;
+      cursor: pointer;
+    }
+    }
+    
    }
 
 #menuToggle
@@ -93,6 +113,8 @@ nav{
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               opacity 0.55s ease;
+
+    
 }
 
 #menuToggle span:first-child

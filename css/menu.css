@@ -57,6 +57,28 @@ nav {
   background: #A2A183;
 }
 
+nav.inverted {
+  background-color: #fff;
+  -webkit-box-shadow: 0 3px 5px 0.3px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 3px 5px 0.3px rgba(0, 0, 0, 0.1);
+}
+
+nav.inverted #menuToggle span {
+  background: #4D4D4D;
+  -webkit-transform-origin: 4px 0px;
+          transform-origin: 4px 0px;
+  -webkit-transition: background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+}
+
+nav.inverted a i {
+  color: #4D4D4D;
+  font-size: 25px;
+  cursor: pointer;
+}
+
 #menuToggle {
   display: -ms-grid;
   display: grid;
