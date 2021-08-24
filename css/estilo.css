@@ -2297,7 +2297,7 @@ footer #copyright_constance_2021__term a {
     top: 130px;
   }
   .about .box1 .img-box img {
-    width: 65%;
+    width: 95%;
     height: 500px;
     -o-object-fit: cover;
        object-fit: cover;
@@ -2340,7 +2340,7 @@ footer #copyright_constance_2021__term a {
   }
   .about .box2 .img-box {
     padding-left: 60%;
-    padding-right: 0rem;
+    padding-right: 9rem;
     position: absolute;
     top: 30px;
     display: -webkit-box;
@@ -2351,7 +2351,7 @@ footer #copyright_constance_2021__term a {
             justify-content: right;
   }
   .about .box2 .img-box img {
-    width: 65%;
+    width: 95%;
     height: 500px;
     -o-object-fit: cover;
        object-fit: cover;
