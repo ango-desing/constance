@@ -104,9 +104,6 @@ width: 100%;
 }
 .rectangulo{
     width: 100%;
-    height: 310px;
-    padding-right: 2.5rem;
-    padding-left: 2.5rem;
     background: $blanco;
     display: grid;
     -webkit-box-align: center;
@@ -118,29 +115,21 @@ width: 100%;
     img{
       display: block;
       width: 100%;
+      height: 380px;
+      object-fit: cover;
 
     }
 }
 .rectangulo2{
   width: 100%;
-  height: 310px;
-  padding-right: 2.5rem;
-  padding-left: 2.5rem;
   background: $beage;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  display: grid;
+  object-fit: cover;
+  
   img{
     display: block;
     width: 100%;
+    object-fit: cover;
 
   }
 }
@@ -381,8 +370,6 @@ button {
     .rectangulo{
     width: 100%;
     height: 380px;
-    padding-right: 8rem;
-    padding-left: 8rem;
     img{
       display: block;
       width: 100%;
@@ -391,8 +378,6 @@ button {
 .rectangulo2{
   width: 100%;
   height: 380px;
-  padding-right: 8rem;
-  padding-left: 8rem;
 
   img{
     display: block;
@@ -455,8 +440,6 @@ display: none;
       .rectangulo{
         width: 100%;
         height: 310px;
-        padding-right: 3.5rem;
-        padding-left: 3.5rem;
         background: $blanco;
         display: grid;
         -webkit-box-align: center;
@@ -566,13 +549,12 @@ display: none;
     .rectangulo{
       width: 100%;
       height: 350px;
-      padding-right: 3.5rem;
-      padding-left: 3.5rem;
-      background: $blanco;
-      display: flex;
+      display: block;
+      object-fit: cover;
       img{
-        display: block;
-        width: 85%;
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
       }
   }
     .rectangulo2{
@@ -706,14 +688,12 @@ display: none;
     }
     .rectangulo{
       width: 100%;
-      height: 450px;
-      padding-right: 3.5rem;
-      padding-left: 3.5rem;
       background: $blanco;
       display: flex;
       img{
         display: block;
-        width: 68%;
+        width: 100%;
+        object-fit: cover;
       }
   }
     .rectangulo2{
