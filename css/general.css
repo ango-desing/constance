@@ -177,9 +177,16 @@ html {
           justify-content: center;
 }
 
-.rectangulo2 img {
+.rectangulo2 p {
   display: block;
   width: 80%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Savinder-Regular";
 }
 
 .rectangulo3 {
