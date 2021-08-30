@@ -318,7 +318,9 @@ button {
     color: $negro;
     text-align: center;
     font-size: 7vw;
-    font-family: "Savinder-Regular";  
+    font-family: "Savinder-Regular";
+    margin: 1rem;
+    cursor: pointer;
   }
 }
 .button {
@@ -660,7 +662,7 @@ display: none;
       color: $negro;
       text-align: center;
       font-size: 4.5vw;
-  
+      margin: 4rem;
     }
   }
   .button-btn{

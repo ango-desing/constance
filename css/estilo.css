@@ -736,6 +736,8 @@ html {
   text-align: center;
   font-size: 7vw;
   font-family: "Savinder-Regular";
+  margin: 1rem;
+  cursor: pointer;
 }
 
 .button {
@@ -1121,6 +1123,7 @@ html {
     color: #000000;
     text-align: center;
     font-size: 4.5vw;
+    margin: 4rem;
   }
   .button-btn {
     left: 100px;
