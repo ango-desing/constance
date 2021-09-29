@@ -198,6 +198,35 @@ html {
   width: 100%;
 }
 
+.banner-2 {
+  width: 100%;
+  height: 280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 3.5rem;
+  padding-left: 3.5rem;
+  background: #F4DBB2;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.banner-2 p {
+  display: block;
+  width: 80%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Savinder-Regular";
+}
+
 .Grupo_4 {
   position: relative;
   height: 270px;
@@ -331,7 +360,10 @@ html {
 }
 
 .Grupo_4 #asdsa {
+  width: 100%;
   height: 290px;
+  -o-object-fit: cover;
+  object-fit: cover;
   display: none;
 }
 
@@ -340,6 +372,10 @@ html {
   height: 270px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.banner-2 {
+  display: none;
 }
 
 .galery-2 {
@@ -698,11 +734,8 @@ html {
     width: 50%;
   }
   .Grupo_4 {
-    height: 450px;
-    width: 100%;
-    top: 0;
-    right: 0;
-    background-color: #e6ab68;
+    display: block;
+    height: 420px;
   }
   .Grupo_4 .product_1 {
     position: absolute;
@@ -731,23 +764,39 @@ html {
         -ms-flex-pack: right;
             justify-content: right;
   }
-  .Grupo_4 .asdsa {
-    width: 100%;
-    height: 450px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .Grupo_4 .asdsa #asdsa {
-    position: absolute;
-    left: 20vh;
-    height: 60vh;
+  .Grupo_4 #asdsa {
+    display: block;
+    height: 420px;
   }
   .Grupo_4 .asf {
     display: none;
+  }
+  .banner-2 {
+    display: block;
+    width: 100%;
+    height: 280px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-right: 20rem;
+    padding-left: 20rem;
+    background: #F4DBB2;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .banner-2 p {
+    display: block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Savinder-Regular";
   }
   .slide {
     width: 100%;
@@ -812,7 +861,7 @@ html {
   }
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1550px) {
   .background {
     height: 910px;
   }
@@ -869,7 +918,8 @@ html {
     width: 40%;
   }
   .Grupo_4 {
-    height: 350px;
+    display: block;
+    height: 450px;
     width: 100%;
     top: 0;
     right: 0;
@@ -879,7 +929,7 @@ html {
     right: 0;
     width: 910px;
     top: 25%;
-    font-size: 18px;
+    font-size: 21px;
     color: #ffff;
   }
   .Grupo_4 .product_1 p {
@@ -888,9 +938,9 @@ html {
   .Grupo_4 .product_2 {
     position: absolute;
     top: 40%;
-    left: 821px;
+    left: 1100px;
     right: 80px;
-    font-size: 14px;
+    font-size: 18px;
     color: #ffff;
     display: -ms-grid;
     display: grid;
@@ -900,14 +950,48 @@ html {
     -webkit-box-pack: right;
         -ms-flex-pack: right;
             justify-content: right;
-    z-index: 2;
+  }
+  .Grupo_4 .product_2 h3 {
+    font-size: 21px;
+  }
+  .Grupo_4 .product_2 p {
+    font-size: 16px;
   }
   .Grupo_4 #asdsa {
     display: block;
-    height: 330px;
+    height: 450px;
   }
   .Grupo_4 .asf {
     display: none;
+  }
+  .banner-2 {
+    display: block;
+    width: 100%;
+    height: 280px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-right: 15rem;
+    padding-left: 15rem;
+    background: #F4DBB2;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .banner-2 p {
+    display: block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+    padding-right: 10rem;
+    padding-left: 10rem;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Savinder-Regular";
   }
   .slide {
     width: 100%;
