@@ -155,8 +155,8 @@ width: 100%;
   width: 100%;
 .product_2{
   position: absolute;
-  top: 34%;
-  left: 40px;
+  top: 60%;
+  left: 55px;
   right: 40px;
   color: $blanco;
   h3{
@@ -407,13 +407,14 @@ display: none;
 .Grupo_4{
   height: 290px;
   .product_2{
-    h3{
-      font-size: 16px;
-      padding-bottom: 10px;
-    }
+    top: 60%;
+    font-size: 14px;
+    color: $blanco;
+    display: grid;
+    align-items: flex-end;
+    justify-content: end;
     p{
       font-size: 14px;
-      padding-bottom: 15px;
     }
   }
 #asdsa{
@@ -495,21 +496,18 @@ display: none;
         top: 0;
         right: 0;
 
-      .product_2{
-        position: absolute;
-        top: 34%;
-        left: 40px;
-        right: 40px;
-        color: $blanco;
-        h3{
-          font-size: 16px;
-          padding-bottom: 10px;
-        }
-        p{
+        .product_2{
+          top: 60%;
+          right: 80px;
           font-size: 14px;
-          padding-bottom: 15px;
+          color: $blanco;
+          display: grid;
+          align-items: flex-end;
+          justify-content: end;
+          p{
+            font-size: 14px;
+          }
         }
-      }
       #asdsa{
         display: block;
         height: 300px;
@@ -614,15 +612,19 @@ display: none;
   }
   .product_2{
     position: absolute;
-    top: 40%;
-    left: 821px;
+    top: 60%;
+    padding-right: 100px;
     right: 80px;
     font-size: 14px;
     color: $blanco;
     display: grid;
     align-items: flex-end;
     justify-content: right;
+    h3{
+      font-size: 16px;
+    }
   }
+
   #asdsa{
     display: block;
     height: 420px;
@@ -751,19 +753,12 @@ display: none;
   }
   .product_2{
     position: absolute;
-    top: 40%;
-    left: 1100px;
+    top: 60%;
+    padding-right: 200px;
     right: 80px;
-    font-size: 18px;
     color: $blanco;
-    display: grid;
-    align-items: flex-end;
-    justify-content: right;
     h3{
-      font-size: 21px;
-    }
-    p{
-      font-size: 16px;
+      font-size: 18px;
     }
   }
   #asdsa{

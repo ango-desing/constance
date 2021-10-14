@@ -205,8 +205,8 @@ html {
 
 .Grupo_4 .product_2 {
   position: absolute;
-  top: 34%;
-  left: 40px;
+  top: 60%;
+  left: 55px;
   right: 40px;
   color: #ffff;
 }
@@ -499,13 +499,21 @@ html {
   .Grupo_4 {
     height: 290px;
   }
-  .Grupo_4 .product_2 h3 {
-    font-size: 16px;
-    padding-bottom: 10px;
+  .Grupo_4 .product_2 {
+    top: 60%;
+    font-size: 14px;
+    color: #ffff;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
   }
   .Grupo_4 .product_2 p {
     font-size: 14px;
-    padding-bottom: 15px;
   }
   .Grupo_4 #asdsa {
     display: block;
@@ -596,19 +604,21 @@ html {
     right: 0;
   }
   .Grupo_4 .product_2 {
-    position: absolute;
-    top: 34%;
-    left: 40px;
-    right: 40px;
+    top: 60%;
+    right: 80px;
+    font-size: 14px;
     color: #ffff;
-  }
-  .Grupo_4 .product_2 h3 {
-    font-size: 16px;
-    padding-bottom: 10px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
   }
   .Grupo_4 .product_2 p {
     font-size: 14px;
-    padding-bottom: 15px;
   }
   .Grupo_4 #asdsa {
     display: block;
@@ -731,8 +741,8 @@ html {
   }
   .Grupo_4 .product_2 {
     position: absolute;
-    top: 40%;
-    left: 821px;
+    top: 60%;
+    padding-right: 100px;
     right: 80px;
     font-size: 14px;
     color: #ffff;
@@ -744,6 +754,9 @@ html {
     -webkit-box-pack: right;
         -ms-flex-pack: right;
             justify-content: right;
+  }
+  .Grupo_4 .product_2 h3 {
+    font-size: 16px;
   }
   .Grupo_4 #asdsa {
     display: block;
@@ -898,25 +911,13 @@ html {
   }
   .Grupo_4 .product_2 {
     position: absolute;
-    top: 40%;
-    left: 1100px;
+    top: 60%;
+    padding-right: 200px;
     right: 80px;
-    font-size: 18px;
     color: #ffff;
-    display: -ms-grid;
-    display: grid;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-    -webkit-box-pack: right;
-        -ms-flex-pack: right;
-            justify-content: right;
   }
   .Grupo_4 .product_2 h3 {
-    font-size: 21px;
-  }
-  .Grupo_4 .product_2 p {
-    font-size: 16px;
+    font-size: 18px;
   }
   .Grupo_4 #asdsa {
     display: block;
