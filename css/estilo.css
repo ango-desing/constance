@@ -465,8 +465,7 @@ html {
 .rectangulo {
   width: 100%;
   background: #ffff;
-  display: -ms-grid;
-  display: grid;
+  display: block;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -521,35 +520,6 @@ html {
   width: 100%;
 }
 
-.banner-2 {
-  width: 100%;
-  height: 280px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-right: 3.5rem;
-  padding-left: 3.5rem;
-  background: #F4DBB2;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.banner-2 p {
-  display: block;
-  width: 80%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: white;
-  font-size: 14px;
-  text-align: center;
-  font-family: "Savinder-Regular";
-}
-
 .Grupo_4 {
   position: relative;
   height: 270px;
@@ -558,8 +528,8 @@ html {
 
 .Grupo_4 .product_2 {
   position: absolute;
-  top: 34%;
-  left: 40px;
+  top: 60%;
+  left: 55px;
   right: 40px;
   color: #ffff;
 }
@@ -833,6 +803,7 @@ html {
     margin-bottom: 50px;
   }
   .rectangulo {
+    display: block;
     width: 100%;
     height: 380px;
   }
@@ -851,13 +822,21 @@ html {
   .Grupo_4 {
     height: 290px;
   }
-  .Grupo_4 .product_2 h3 {
-    font-size: 16px;
-    padding-bottom: 10px;
+  .Grupo_4 .product_2 {
+    top: 60%;
+    font-size: 14px;
+    color: #ffff;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
   }
   .Grupo_4 .product_2 p {
     font-size: 14px;
-    padding-bottom: 15px;
   }
   .Grupo_4 #asdsa {
     display: block;
@@ -903,19 +882,15 @@ html {
   .rectangulo {
     width: 100%;
     height: 310px;
-    background: #ffff;
-    display: -ms-grid;
-    display: grid;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    display: block;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .rectangulo img {
-    display: block;
     width: 100%;
+    height: 310px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .rectangulo2 {
     display: none;
@@ -934,9 +909,16 @@ html {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .rectangulo3 img {
+  .rectangulo3 p {
     display: block;
     width: 80%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-family: "Savinder-Regular";
   }
   .Grupo_4 {
     height: 300px;
@@ -945,19 +927,21 @@ html {
     right: 0;
   }
   .Grupo_4 .product_2 {
-    position: absolute;
-    top: 34%;
-    left: 40px;
-    right: 40px;
+    top: 60%;
+    right: 80px;
+    font-size: 14px;
     color: #ffff;
-  }
-  .Grupo_4 .product_2 h3 {
-    font-size: 16px;
-    padding-bottom: 10px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
   }
   .Grupo_4 .product_2 p {
     font-size: 14px;
-    padding-bottom: 15px;
   }
   .Grupo_4 #asdsa {
     display: block;
@@ -1052,9 +1036,16 @@ html {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .rectangulo3 img {
+  .rectangulo3 p {
     display: block;
-    width: 50%;
+    width: 70%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-family: "Savinder-Regular";
   }
   .Grupo_4 {
     display: block;
@@ -1073,8 +1064,8 @@ html {
   }
   .Grupo_4 .product_2 {
     position: absolute;
-    top: 40%;
-    left: 821px;
+    top: 60%;
+    padding-right: 100px;
     right: 80px;
     font-size: 14px;
     color: #ffff;
@@ -1087,39 +1078,15 @@ html {
         -ms-flex-pack: right;
             justify-content: right;
   }
+  .Grupo_4 .product_2 h3 {
+    font-size: 16px;
+  }
   .Grupo_4 #asdsa {
     display: block;
     height: 420px;
   }
   .Grupo_4 .asf {
     display: none;
-  }
-  .banner-2 {
-    display: block;
-    width: 100%;
-    height: 280px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    padding-right: 20rem;
-    padding-left: 20rem;
-    background: #F4DBB2;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .banner-2 p {
-    display: block;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    color: white;
-    font-size: 18px;
-    text-align: center;
-    font-family: "Savinder-Regular";
   }
   .slide {
     width: 100%;
@@ -1236,9 +1203,16 @@ html {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .rectangulo3 img {
+  .rectangulo3 p {
     display: block;
-    width: 40%;
+    width: 60%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Savinder-Regular";
   }
   .Grupo_4 {
     display: block;
@@ -1260,25 +1234,13 @@ html {
   }
   .Grupo_4 .product_2 {
     position: absolute;
-    top: 40%;
-    left: 1100px;
+    top: 60%;
+    padding-right: 200px;
     right: 80px;
-    font-size: 18px;
     color: #ffff;
-    display: -ms-grid;
-    display: grid;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-    -webkit-box-pack: right;
-        -ms-flex-pack: right;
-            justify-content: right;
   }
   .Grupo_4 .product_2 h3 {
-    font-size: 21px;
-  }
-  .Grupo_4 .product_2 p {
-    font-size: 16px;
+    font-size: 18px;
   }
   .Grupo_4 #asdsa {
     display: block;
@@ -1286,35 +1248,6 @@ html {
   }
   .Grupo_4 .asf {
     display: none;
-  }
-  .banner-2 {
-    display: block;
-    width: 100%;
-    height: 280px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    padding-right: 15rem;
-    padding-left: 15rem;
-    background: #F4DBB2;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .banner-2 p {
-    display: block;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    color: white;
-    padding-right: 10rem;
-    padding-left: 10rem;
-    font-size: 18px;
-    text-align: center;
-    font-family: "Savinder-Regular";
   }
   .slide {
     width: 100%;
