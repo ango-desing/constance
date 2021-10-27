@@ -7,6 +7,14 @@
   font-family: 'MetroSans-Book', Helvetica, Arial, Sans-Serif;
 }
 
+/*===== VARIABLES CSS =====*/
+:root {
+  --nav-width: 92px;
+  /*===== Fuente y tipografia =====*/
+  --normal-font-size: 1rem;
+  --small-font-size: 0.9rem;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -208,6 +216,85 @@ nav.inverted a i {
 #menuToggle input:checked ~ ul {
   -webkit-transform: none;
           transform: none;
+}
+
+.nav {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  overflow: hidden;
+}
+
+.nav__link {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: max-content max-content;
+      grid-template-columns: -webkit-max-content -webkit-max-content;
+      grid-template-columns: max-content max-content;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: .75rem;
+          column-gap: .75rem;
+  padding: .75rem;
+  border-radius: .5rem;
+  margin-bottom: -1rem;
+  -webkit-transition: .3s;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.nav__icon {
+  font-size: 1.25rem;
+}
+
+.nav__name {
+  font-size: var(--small-font-size);
+}
+
+/*===== COLLAPSE =====*/
+.collapse {
+  -ms-grid-columns: 20px max-content 1fr;
+      grid-template-columns: 20px -webkit-max-content 1fr;
+      grid-template-columns: 20px max-content 1fr;
+}
+
+.collapse__link {
+  justify-self: flex-end;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.collapse__link ion-icon {
+  color: blue;
+}
+
+.collapse__menu {
+  display: none;
+  padding: .75rem 3rem;
+}
+
+/*Show collapse*/
+.showCollapse {
+  display: block;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+/*Rotate icon*/
+.rotate {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 .terms {
