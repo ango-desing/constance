@@ -252,6 +252,10 @@ nav.inverted a i {
   cursor: pointer;
 }
 
+.nav__link ion-icon {
+  color: white;
+}
+
 .nav__icon {
   font-size: 1.25rem;
 }
@@ -273,13 +277,14 @@ nav.inverted a i {
   transition: .5s;
 }
 
-.collapse__link ion-icon {
-  color: blue;
-}
-
 .collapse__menu {
   display: none;
-  padding: .75rem 3rem;
+  padding: .75rem 2.5rem;
+}
+
+.collapse__sublink {
+  padding-bottom: 12px;
+  opacity: .7;
 }
 
 /*Show collapse*/

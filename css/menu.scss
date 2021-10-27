@@ -209,9 +209,13 @@ nav{
       margin-bottom: -1rem;
       transition: .3s;
       cursor: pointer;
+      ion-icon {
+        color: white;
+      }
   }
   &__icon{
       font-size: 1.25rem;
+  
   }
   &__name{
       font-size: var(--small-font-size);
@@ -229,16 +233,16 @@ nav{
   &__link{
       justify-self: flex-end;
       transition: .5s;
-      ion-icon {
-        color: blue;
-      }
   }
 
   &__menu{
       display: none;
-      padding: .75rem 3rem;
+      padding: .75rem 2.5rem;
   }
-  
+  &__sublink{
+    padding-bottom: 12px;
+    opacity: .7;
+}
 }
 
 /*Show collapse*/

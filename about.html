@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="css/estilo.css">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <link rel="icon" type="image/png" href="img/wqfew-03-1.png">
-    <script
-  src="https://ucarecdn.com/libs/widget/3.x/uploadcare.full.min.js">
-</script>
+    <script src="https://ucarecdn.com/libs/widget/3.x/uploadcare.full.min.js"></script>
+    <!-- 1. load the icon menu -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
 <body>
   <!--===== header =====-->
@@ -26,7 +27,17 @@
             <ul id="menu">
               <li></li><a href="https://www.constancehawaii.com/"><li>Home</li></a>
               <li><a href="https://www.constancehawaii.com/about"><li>About</li></a>
-              <li><a href="https://constancehawaii.shop/collections/all"><li>Products</li></a>
+              <div  class="nav__link collapse">
+                <li><a href="https://constancehawaii.shop/collections/all"><li>Products</li></a>
+                <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+  
+                <ul class="collapse__menu">
+                    <a href="https://constancehawaii.shop/collections/kitchen" class="collapse__sublink">Kitchen</a>
+                    <a href="https://constancehawaii.shop/collections/dinning" class="collapse__sublink">Dinning</a>
+                    <a href="https://constancehawaii.shop/collections/entertainment" class="collapse__sublink">Entertainment</a>
+                    <a href="https://constancehawaii.shop/collections/decor" class="collapse__sublink">Decor</a>
+                </ul>
+            </div>
               <li><a href="https://www.constancehawaii.com/faq"><li>FAQ</li></a>
               <li><a href="https://www.constancehawaii.com/contact"><li>Contact</li></a>
               <div class="terms">
@@ -136,6 +147,7 @@
         </div>
       </footer>
 
+<script src="js/main.js"></script>
 
 </body>
 
